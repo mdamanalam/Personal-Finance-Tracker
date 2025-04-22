@@ -1,0 +1,23 @@
+<div class="home-container">
+  <h1>Welcome to Your Personal Finance Tracker</h1>
+  <p>Your financial health is our priority. Here you can track your expenses, income, and savings.</p>
+  
+  <div class="dashboard">
+    <h2>Dashboard</h2>
+    <div class="summary">
+      <h3>Summary</h3>
+      <p>Total Income: {{ totalIncome | currency }}</p>
+      <p>Total Expenses: {{ totalExpenses | currency }}</p>
+      <p>Net Savings: {{ netSavings | currency }}</p>
+    </div>
+    
+    <div class="transactions">
+      <h3>Recent Transactions</h3>
+      <ul>
+        <li *ngFor="let transaction of recentTransactions">
+          {{ transaction.date | date }} - {{ transaction.description }}: {{ transaction.amount | currency }}
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
