@@ -1,3 +1,4 @@
+This Project is in the Process
 # Personal Finance Tracker
 
 This project is a Personal Finance Tracker application built using Angular for the frontend and Flask for the backend. It allows users to manage their personal finances, track expenses, and authenticate securely.
