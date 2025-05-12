@@ -29,4 +29,19 @@ body {
   color: #171717;
   font-family: Arial, Helvetica, sans-serif;
 }
-
+/* Chatbot-specific styles (if needed) */
+.fixed {
+  position: fixed;
+}
+.bottom-4 {
+  bottom: 1rem;
+}
+.right-4 {
+  right: 1rem;
+}
+.rounded-full {
+  border-radius: 9999px;
+}
+.shadow-lg {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
