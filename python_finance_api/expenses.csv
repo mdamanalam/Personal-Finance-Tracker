@@ -1,0 +1,12 @@
+id,date,category,amount,description
+1,2023-10-15 00:00:00,Groceries,50.0,Weekly groceries
+2,2023-10-20 00:00:00,Transport,25.0,Bus fare
+3,2023-11-10 00:00:00,Groceries,60.0,Monthly stock-up
+4,2023-11-18 00:00:00,Entertainment,30.0,Movie ticket
+5,2023-12-05 00:00:00,Groceries,55.0,Fruits and vegetables
+6,2023-12-15 00:00:00,Utilities,120.0,Electricity bill
+7,2024-01-05 00:00:00,Dining,45.0,Dinner with friends
+8,2024-01-15 00:00:00,Groceries,65.0,Groceries for the week
+9,2024-01-20 00:00:00,Transport,30.0,Metro pass
+10,2024-02-05 00:00:00,Shopping,75.0,New clothes
+5e3010ed-6e23-47b0-ac27-e1dbaf0a4cf0,2025-05-23,Groceries,74.99,Weekly Shooping
