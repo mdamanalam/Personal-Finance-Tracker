@@ -2,6 +2,7 @@
 
  import { useSession, signOut } from "next-auth/react";
  import { useRouter } from "next/navigation";
+ import Image from "next/image";
  import { useEffect, useState, useRef } from "react";
  import { Chart, registerables } from 'chart.js/auto'; // Using 'chart.js/auto' for easier setup
  Chart.register(...registerables);
@@ -23,6 +24,15 @@
    const [monthlySpending, setMonthlySpending] = useState({});
    const [prediction, setPrediction] = useState({ prediction: 0, message: '' });
    const [formMessage, setFormMessage] = useState({ type: '', text: '' });
+   
+  // States for CSV File Upload
+   const [selectedFile, setSelectedFile] = useState(null);
+   const [uploadMessage, setUploadMessage] = useState({ type: '', text: '' });
+   const [isUploading, setIsUploading] = useState(false);
+
+  // States for Pagination
+   const [currentPage, setCurrentPage] = useState(1);
+   const [expensesPerPage] = useState(5); // Display 5 expenses per page
 
    useEffect(() => {
      if (status === "loading") return; // Wait for session to load
@@ -30,6 +40,53 @@
        router.push("/auth/login"); // Redirect if not authenticated
      }
    }, [session, status, router]);
+
+    // --- CSV Upload Functions ---
+   const handleFileChange = (event) => {
+    if (event.target.files && event.target.files[0]) {
+        setSelectedFile(event.target.files[0]);
+        setUploadMessage({ type: '', text: '' }); // Clear previous messages
+    }
+   };
+
+   const handleFileUpload = async () => {
+    if (!selectedFile) {
+        setUploadMessage({ type: 'error', text: 'Please select a CSV file first.' });
+        return;
+    }
+
+    setIsUploading(true);
+    setUploadMessage({ type: 'info', text: 'Uploading...' });
+
+    const formData = new FormData();
+    formData.append('file', selectedFile); // 'file' must match the key expected by Flask
+
+    try {
+        const response = await fetch(`${PYTHON_API_BASE_URL}/expenses/upload_csv`, {
+            method: 'POST',
+            body: formData,
+        });
+
+        const data = await response.json();
+
+        if (response.ok) {
+            setUploadMessage({ type: 'success', text: data.message || 'File uploaded and expenses added successfully!' });
+            fetchAllData(); // Refresh all data including expenses and insights
+            setSelectedFile(null); // Clear the selected file
+            setCurrentPage(1); // Reset to first page after upload
+            if (document.getElementById('csvFileUploadInput')) {
+                document.getElementById('csvFileUploadInput').value = ''; // Reset file input
+            }
+        } else {
+            setUploadMessage({ type: 'error', text: data.error || `Upload failed: ${response.statusText}` });
+        }
+    } catch (error) {
+        console.error('Upload error:', error);
+        setUploadMessage({ type: 'error', text: 'An error occurred during upload. Please check the console.' });
+    } finally {
+        setIsUploading(false);
+    }
+   };
 
    // Refs for charts
    const categoryChartRef = useRef(null);
@@ -153,6 +210,7 @@
              setFormMessage({ type: 'success', text: result.message || 'Expense added successfully!' });
              setNewExpense({ date: '', category: '', amount: '', description: '' });
              fetchAllData(); // Refresh all data
+             setCurrentPage(1); // Reset to first page after adding
          } else {
              setFormMessage({ type: 'error', text: result.error || result.message || 'Failed to add expense.' });
          }
@@ -201,10 +259,27 @@
      );
    }
 
+   // Pagination Logic
+   const sortedExpenses = [...expenses].sort((a, b) => new Date(b.date) - new Date(a.date));
+   const indexOfLastExpense = currentPage * expensesPerPage;
+   const indexOfFirstExpense = indexOfLastExpense - expensesPerPage;
+   const currentExpenses = sortedExpenses.slice(indexOfFirstExpense, indexOfLastExpense);
+   const totalPages = Math.ceil(sortedExpenses.length / expensesPerPage);
+
    return (
      <div className="min-h-screen flex flex-col bg-gray-100">
-       <nav className="bg-blue-600 text-white p-4 flex justify-between items-center shadow-md">
-         <h1 className="text-xl font-bold">WealthPilot</h1>
+       <nav className="bg-blue-400 shadow-md border-b border-gray-blue-500 border-b border-gray-600 text-white p-4 flex justify-between items-center shadow-md">
+         {/* <h1 className="text-xl font-bold">Quantivy</h1> */}
+          <div className="flex items-center">
+           <Image
+             src="/images/mylogo.jpg" // Path relative to the 'public' directory
+             alt="WealthPilot Logo"
+             width={50} // Specify desired width (e.g., 40 pixels)
+             height={50} // Specify desired height (e.g., 40 pixels)
+             className="mr-3" // Optional: add some margin to the right
+           />
+           {/* <h1 className="text-xl font-bold">Quantivy</h1> */}
+         </div>
          <button
            onClick={() => signOut()}
            className="bg-red-500 px-4 py-2 rounded hover:bg-red-700 transition duration-150"
@@ -213,9 +288,10 @@
          </button>
        </nav>
 
-       <main className="flex-grow p-4 md:p-8">
-         <div className="max-w-6xl mx-auto">
-           <h1 className="text-3xl font-bold text-gray-800 mb-6">Welcome, {session.user.name}!</h1>
+       {/* <main className="flex-grow p-4 md:p-8"> */}
+       <main className="flex-grow px-4 pb-4 md:px-8 md:pb-8">
+         <div className="max-w-8xl mx-auto">
+           <h1 className="text-2xl font-bold text-gray-800 mb-6">Welcome back, {session.user.name}! Let’s track smart.</h1>
 
            {/* Personal Finance Tracker Sections */}
            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
@@ -247,20 +323,57 @@
                  )}
                </form>
              </div>
+             {/* CSV Upload Section */}
+             <div className="bg-white p-6 rounded-lg shadow-lg col-span-1 md:col-span-2 lg:col-span-1">
+              <h2 className="text-2xl font-semibold text-gray-700 mb-4">Upload Expenses CSV</h2>
+              <div className="space-y-3">
+                <div>
+                  <label htmlFor="csvFileUploadInput" className="block text-sm font-medium text-gray-600">Select CSV File</label>
+                  <input
+                    type="file"
+                    id="csvFileUploadInput"
+                    accept=".csv"
+                    onChange={handleFileChange}
+                    disabled={isUploading}
+                    className="mt-1 block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100"
+                  />
+                </div>
+                <button onClick={handleFileUpload} disabled={isUploading || !selectedFile} className="w-full bg-purple-500 hover:bg-purple-600 text-white font-bold py-2 px-4 rounded transition duration-150 disabled:opacity-50">
+                  {isUploading ? 'Uploading...' : 'Upload CSV & Add Expenses'}
+                </button>
+                {uploadMessage.text && <p className={`mt-2 text-sm ${uploadMessage.type === 'success' ? 'text-green-600' : uploadMessage.type === 'error' ? 'text-red-600' : 'text-blue-600'}`}>{uploadMessage.text}</p>}
+              </div>
+            </div>
 
              {/* Insights Summary */}
-             <div className="bg-white p-6 rounded-lg shadow-lg">
+             {/* <div className="bg-white p-6 rounded-lg shadow-lg">
                <h2 className="text-2xl font-semibold text-gray-700 mb-4">Spending Summary</h2>
                <p className="text-gray-600">Total Expenses: <span className="font-bold text-indigo-600">{insightsSummary.count}</span></p>
                <p className="text-gray-600">Total Spending: <span className="font-bold text-indigo-600">${(insightsSummary.total_spending || 0).toFixed(2)}</span></p>
                <p className="text-gray-600">Average Transaction: <span className="font-bold text-indigo-600">${(insightsSummary.average_transaction || 0).toFixed(2)}</span></p>
-             </div>
+             </div> */}
 
              {/* Expense Prediction */}
-             <div className="bg-white p-6 rounded-lg shadow-lg">
+             {/* <div className="bg-white p-6 rounded-lg shadow-lg">
                <h2 className="text-2xl font-semibold text-gray-700 mb-4">Expense Prediction</h2>
                <p className="text-gray-600">Predicted Total for Next Month: <span className="font-bold text-purple-600">${(prediction.prediction || 0).toFixed(2)}</span></p>
-               <p className="text-sm text-gray-500 mt-1">{prediction.message}</p>
+               <p className="text-sm text-gray-500 mt-1">{prediction.message}</p> */}
+             {/* Combined Summary & Prediction Card */}
+             <div className="bg-white p-6 rounded-lg shadow-lg col-span-1 md:col-span-2 lg:col-span-1"> {/* Adjust col-span as needed */}
+               <h2 className="text-2xl font-semibold text-gray-700 mb-4">Financial Overview</h2>
+               
+               <div className="mb-6">
+                 <h3 className="text-xl font-medium text-gray-600 mb-2">Spending Summary</h3>
+                 <p className="text-gray-600">Total Expenses: <span className="font-bold text-indigo-600">{insightsSummary.count}</span></p>
+                 <p className="text-gray-600">Total Spending: <span className="font-bold text-indigo-600">${(insightsSummary.total_spending || 0).toFixed(2)}</span></p>
+                 <p className="text-gray-600">Average Transaction: <span className="font-bold text-indigo-600">${(insightsSummary.average_transaction || 0).toFixed(2)}</span></p>
+               </div>
+
+               <div>
+                 <h3 className="text-xl font-medium text-gray-600 mb-2">Expense Prediction</h3>
+                 <p className="text-gray-600">Predicted Total for Next Month: <span className="font-bold text-purple-600">${(prediction.prediction || 0).toFixed(2)}</span></p>
+                 <p className="text-sm text-gray-500 mt-1">{prediction.message}</p>
+               </div>
              </div>
            </div>
 
@@ -290,7 +403,8 @@
                    </tr>
                  </thead>
                  <tbody className="bg-white divide-y divide-gray-200">
-                   {expenses.length > 0 ? expenses.sort((a,b) => new Date(b.date) - new Date(a.date)).map(exp => (
+                   {/* {expenses.length > 0 ? expenses.sort((a,b) => new Date(b.date) - new Date(a.date)).map(exp => ( */}
+                   {currentExpenses.length > 0 ? currentExpenses.map(exp => (
                      <tr key={exp.id}>
                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{new Date(exp.date).toLocaleDateString()}</td>
                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{exp.category}</td>
@@ -303,6 +417,28 @@
                  </tbody>
                </table>
              </div>
+                          {/* Pagination Controls */}
+             {sortedExpenses.length > expensesPerPage && (
+                <div className="mt-6 flex justify-between items-center">
+                    <button
+                        onClick={() => setCurrentPage(prev => Math.max(prev - 1, 1))}
+                        disabled={currentPage === 1}
+                        className="px-4 py-2 bg-gray-200 text-gray-700 rounded hover:bg-gray-300 disabled:opacity-50 transition-colors"
+                    >
+                        Previous
+                    </button>
+                    <span className="text-sm text-gray-700">
+                        Page {currentPage} of {totalPages}
+                    </span>
+                    <button
+                        onClick={() => setCurrentPage(prev => Math.min(prev + 1, totalPages))}
+                        disabled={currentPage === totalPages}
+                        className="px-4 py-2 bg-gray-200 text-gray-700 rounded hover:bg-gray-300 disabled:opacity-50 transition-colors"
+                    >
+                        Next
+                    </button>
+                </div>
+             )}
            </div>
          </div>
        </main>
