@@ -1,5 +1,5 @@
  "use client";
-
+ import Head from "next/head";
  import { useSession, signOut } from "next-auth/react";
  import { useRouter } from "next/navigation";
  import Image from "next/image";
@@ -8,6 +8,7 @@
  Chart.register(...registerables);
 
  const PYTHON_API_BASE_URL = "http://localhost:5001/api"; // Define base URL for Python API
+
 
  export default function HomePage() {
    const { data: session, status } = useSession();
@@ -48,6 +49,8 @@
         setUploadMessage({ type: '', text: '' }); // Clear previous messages
     }
    };
+   
+   
 
    const handleFileUpload = async () => {
     if (!selectedFile) {
