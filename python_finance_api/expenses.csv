@@ -105,109 +105,553 @@ ff09abef-42f8-4503-badb-784a4954664f,2023-10-15 00:00:00,Uncategorized,50.0,Week
 0b22b46e-c99b-4ad2-980f-884e5e288200,2023-11-18 00:00:00,Uncategorized,30.0,Movie ticket
 8ffb3d4b-e46d-40e9-8161-ec308b5a5027,2023-12-05 00:00:00,Uncategorized,55.0,Fruits and vegetables
 7cf0b156-878d-4ae0-9070-7df6578ea6e9,2023-12-15 00:00:00,Uncategorized,120.0,Electricity bill
-6f78f72c-cb96-4620-a783-49591aa68c91,2024-01-27,Uncategorized,109.48,Gadgets
-6f0489e4-d718-4b44-adc8-619b861928dc,2024-02-25,Uncategorized,49.82,Taxi ride
-6ba8f449-de14-4bd0-b82f-08bf7d1567c6,2024-04-09,Uncategorized,81.37,Movie ticket
-c5efd3f1-7ea9-4eb1-9f4a-5e98c1bc8b36,2024-02-25,Uncategorized,52.59,Theater play
-1149baab-384c-41fe-bf69-98c7d0831c14,2024-01-25,Uncategorized,32.19,Lunch out
-e58c7a09-264b-4cfe-85e3-7b627b35a7a9,2024-04-01,Uncategorized,57.31,Fruits and vegetables
-aeffc409-2fe7-48c0-8bdd-89386a0d4227,2024-01-23,Uncategorized,42.37,Theater play
-9f2827ed-ed42-4653-9789-7a031fff33ac,2024-01-22,Uncategorized,23.74,Metro pass
-5ef6cf4a-48bc-426b-8fca-e8a0357da7d7,2024-01-09,Uncategorized,34.73,Taxi ride
-c434c181-1ccc-47f2-b4f4-242de30cc2ae,2024-02-08,Uncategorized,119.86,Lunch out
-a41a3bcf-9adc-4255-b60b-90514c8b4d64,2024-01-21,Uncategorized,44.57,Books
-94f7c3ac-f36d-452a-a2e0-80adceb5540d,2024-04-26,Uncategorized,85.91,Health insurance
-1b207d14-522b-46f2-9ba8-14edbc2a1ad9,2024-03-30,Uncategorized,45.75,Concert
-4012c7d2-7232-4fa4-b64a-1bfd120636bb,2024-04-23,Uncategorized,60.9,Bus fare
-18e1d5c1-283d-4360-8a1d-36d32fd55858,2024-02-10,Uncategorized,21.09,Gadgets
-05a9fd2c-804b-4adb-a49b-664225a487af,2024-02-11,Uncategorized,43.68,Lunch out
-558761f6-ea39-4a95-b8fc-7dd242b894f3,2024-03-18,Uncategorized,145.53,Health insurance
-0a021619-67c8-4078-9aed-af413b179b3c,2024-04-13,Uncategorized,40.75,Dinner with friends
-455e8c25-8cd6-4da6-a335-0a4e01c5f6a4,2024-04-20,Uncategorized,24.86,Fruits and vegetables
-c27acb0f-c607-4e7b-b040-4f57f75e24ba,2024-01-21,Uncategorized,44.29,Streaming service
-8ed6f942-887b-41ea-ac66-55ba6a9df399,2024-01-07,Uncategorized,66.59,Monthly stock-up
-e294c982-945b-4dae-919b-21299df94136,2024-03-19,Uncategorized,128.85,Concert
-745958b1-80f8-483c-b159-4eb4969ba61b,2024-04-09,Uncategorized,147.42,Dinner with friends
-04cf5712-2527-4eba-9861-05d052f15055,2024-04-01,Uncategorized,19.9,Gas bill
-5edcd344-d8bc-4622-a98e-668672d53242,2024-01-23,Uncategorized,35.62,Online course
-17941ad3-a158-4e3a-8dd4-24be93c2f124,2024-01-30,Uncategorized,120.08,Electricity bill
-6314e42c-e78c-4f13-b670-e9141e5f5070,2024-04-08,Uncategorized,41.28,Theater play
-6ca576b1-a18e-4a9a-bc3c-8d493a6e7e82,2024-04-08,Uncategorized,80.18,Gym membership
-b90774c6-cb0f-4a3b-9d3c-91d86d664b05,2024-04-07,Uncategorized,41.24,Fruits and vegetables
-3c9d0423-038b-4758-be60-72bc70738359,2024-03-22,Uncategorized,120.23,Fruits and vegetables
-a652f1d5-f76e-4747-be7c-9f63af84f208,2024-02-13,Uncategorized,135.27,Theater play
-0581a580-f0e8-4cc2-8c1b-f487b114f4c0,2024-03-31,Uncategorized,59.31,New clothes
-d94c5033-4002-4c69-9f6f-66a61ca6f0ff,2024-04-30,Uncategorized,133.34,Theater play
-d9e0af68-150d-4ddb-b704-617c59239658,2024-02-14,Uncategorized,30.43,Electricity bill
-458789f8-0e59-4b8d-9082-76143cb9db52,2024-03-20,Uncategorized,107.79,Lunch out
-06e855f6-22a3-4834-b31c-b7921e657474,2024-03-04,Uncategorized,131.87,Water bill
-6ab9d5c2-4168-4098-ad88-431201aaf059,2024-01-22,Uncategorized,122.4,Tuition fee
-f0556249-fa7b-4289-a587-2cd755f95aa7,2024-02-09,Uncategorized,56.21,Tuition fee
-7fc9d319-f2af-43b1-9315-d7cedc80326c,2024-04-14,Uncategorized,146.38,Taxi ride
-dc19e925-3938-4dbf-a750-4a13441f5c69,2024-04-21,Uncategorized,97.76,Gas bill
-880a1633-e03c-45a4-941b-ecfc65cdb528,2024-04-09,Uncategorized,118.7,Online course
-18b7f0ee-5231-489e-a16f-e86ae24c15d0,2024-03-28,Uncategorized,67.82,Weekly groceries
-19a92319-0092-4cd6-b04f-e90d660554b1,2024-02-26,Uncategorized,81.9,Gadgets
-cbbdd556-a386-4ef2-81e2-75a0b6cdd1f8,2024-02-15,Uncategorized,82.27,Doctor visit
-7aa2430d-5959-4da6-9f50-5bf33cc4bdd3,2024-04-26,Uncategorized,131.31,Water bill
-794e5b5d-4777-41b3-87b7-36780bbc63b4,2024-03-01,Uncategorized,46.6,Streaming service
-b57387b5-81f5-4a90-92d0-9120bdcbade0,2024-04-17,Uncategorized,112.42,Pharmacy
-ef75383a-c305-4990-a2cc-7473e4a584bb,2024-02-04,Uncategorized,97.24,Dinner with friends
-04baa557-5806-4a64-9e12-833cb909f6b1,2024-02-28,Uncategorized,72.85,Health insurance
-579fc695-777d-4143-9f83-90ef6b5770bd,2024-01-17,Uncategorized,90.5,Fast food
-86884012-d210-49d2-8f38-77f78c0117f0,2024-03-11,Uncategorized,18.62,Fruits and vegetables
-272c78f7-37e8-476f-84c6-2f8d40ae24b2,2024-02-11,Uncategorized,66.39,Books
-a9a1c12f-ede1-4ba8-b2ec-25c51d42ce0e,2024-03-27,Uncategorized,112.73,Weekly groceries
-49056abd-2655-43ce-8195-c685920fb343,2024-02-26,Uncategorized,86.59,Water bill
-f117497f-9db9-4d68-83a2-308cc4bd26bb,2024-03-22,Uncategorized,97.12,Stationery
-307dbf6b-a688-4ec8-8acc-a3121fd5aa89,2024-01-20,Uncategorized,132.42,Fuel refill
-a6c2f4ff-060e-4fdd-838e-a3533d11284b,2024-03-21,Uncategorized,35.95,Fruits and vegetables
-5cf8223c-0fa2-41c2-8882-948efaa4ff16,2024-01-30,Uncategorized,142.84,Fuel refill
-3a2b8fe2-c9ff-42c4-9083-c7d38e210046,2024-01-11,Uncategorized,36.27,Electricity bill
-266a4fbb-c856-48e3-bcbb-f3fe136377cb,2024-04-10,Uncategorized,42.73,Health insurance
-4916e5d4-4322-4420-818f-4f1b2aeb3ab0,2024-04-24,Uncategorized,71.59,Books
-93aaec92-9924-42ba-bb36-4a68b72bea65,2024-04-21,Uncategorized,64.02,Metro pass
-3136903c-2dca-43b8-b2ae-c941c493b1b3,2024-01-20,Uncategorized,61.5,Theater play
-9b76b2e4-7914-4b1c-ad59-092018e8e880,2024-01-07,Uncategorized,146.51,Streaming service
-ae5576b3-0cf8-43d0-a6ea-590a2f1fd288,2024-01-19,Uncategorized,84.36,Electricity bill
-639e0c1c-1521-4f72-9607-5def817193c9,2024-01-25,Uncategorized,134.92,Taxi ride
-02736d7d-bb24-43dc-9da5-66a4467266bf,2024-01-19,Uncategorized,100.43,Fruits and vegetables
-64d97213-be40-405d-80bc-8871af21dffa,2024-01-20,Uncategorized,114.74,Movie ticket
-3f6d9bf0-f381-4fb0-bc3b-1017ebbf8194,2024-03-14,Uncategorized,59.33,Electricity bill
-83c3eff7-70c8-492b-a874-945f9194371c,2024-02-19,Uncategorized,74.37,Concert
-b082bedd-1c98-4264-ae1a-bfcd731802c3,2024-03-30,Uncategorized,29.38,Home decor
-c402d01b-14a9-4bdd-819a-d2979347b243,2024-03-30,Uncategorized,132.13,Fuel refill
-0a4f13de-f9b8-4d9d-9f18-d96b7dd461b0,2024-02-05,Uncategorized,71.35,Concert
-cb8d655f-bac7-4934-9bd3-f15050cdca6b,2024-04-06,Uncategorized,46.32,Electricity bill
-30ea1672-2f93-427d-bea3-a0ff02a9eb0c,2024-03-21,Uncategorized,23.72,Water bill
-15cd54e1-4eae-4e90-be21-d82cda813a29,2024-02-11,Uncategorized,100.16,Tuition fee
-6655ba8c-2842-486f-86c5-618978996958,2024-01-28,Uncategorized,49.39,Supermarket run
-3fa15510-e0bc-495d-bc1f-03737fe4fd56,2024-04-22,Uncategorized,103.05,Movie ticket
-9facc2c2-261c-4acb-b75b-ab1b78184c31,2024-02-11,Uncategorized,28.23,Home decor
-271baae4-3770-4dd2-aa1f-b59150811a64,2024-01-01,Uncategorized,137.24,New clothes
-3c76b84f-4e9b-4753-a0bd-e49fb2653236,2024-02-13,Uncategorized,140.27,Fuel refill
-42489303-2a73-4b30-a1a0-6565928fbc4c,2024-03-17,Uncategorized,15.77,Gadgets
-8f8631cc-14df-4e54-a7a8-b0fa867bb269,2024-01-16,Uncategorized,140.1,Lunch out
-7e05a19a-beee-445f-8101-243ea4ec2c48,2024-03-05,Uncategorized,80.51,Metro pass
-73e76ba4-fb77-47f4-919f-0e437693aa2d,2024-04-16,Uncategorized,72.87,Online course
-e42fb0a0-bd6a-4d7c-b81c-3c57b15f5528,2024-04-18,Uncategorized,139.63,Gym membership
-d8b79afc-85b3-4b07-b6fa-3044b3407ecd,2024-02-14,Uncategorized,138.3,Home decor
-5c0a8fa0-4991-400f-aedd-4c51cc2b5627,2024-03-03,Uncategorized,14.93,Doctor visit
-f13d1701-0a58-40b4-8021-cd57308f61cb,2024-02-25,Uncategorized,35.55,Concert
-e3a8cf31-f39c-4210-b806-e7a3683761fe,2024-02-28,Uncategorized,99.78,Lunch out
-7879c47d-7237-4b04-9a59-70f8650cd7f0,2024-04-08,Uncategorized,131.69,Books
-37573b52-cbe2-44c3-9b4d-cb66d09039e5,2024-03-31,Uncategorized,135.46,Home decor
-70abb824-28d9-4c55-abeb-bd639ecd4cfc,2024-03-02,Uncategorized,53.69,Dinner with friends
-381230e6-adab-4be7-af06-21c6cb3a2772,2024-03-27,Uncategorized,36.94,Gadgets
-be3468d1-eb12-4e5a-a81e-dd9afc0cdb6f,2024-03-16,Uncategorized,35.06,Lunch out
-00bd1ca4-d780-4ed0-b500-5310a712a6d0,2024-03-05,Uncategorized,24.37,Water bill
-eebaebd1-241b-45b5-986e-621761ca5f9e,2024-02-10,Uncategorized,148.47,Bus fare
-7e10b2b1-00d1-44cc-b252-600321723a55,2024-01-10,Uncategorized,133.86,Tuition fee
-b0c9743b-9464-4432-baa8-89dcf91f8f54,2024-04-12,Uncategorized,41.19,Fast food
-a9416564-6efe-4bbc-ba05-caa83e7363c8,2024-03-02,Uncategorized,12.16,Fuel refill
-27ef0628-40d3-4277-9cfd-3fb1f9af5bcb,2023-10-15,Uncategorized,50.0,Weekly groceries
-ee4a3ca7-05cd-450d-9374-a055398a6a37,2023-10-20,Uncategorized,25.0,Bus fare
-4efd0675-4b3a-4552-9b27-1f515e936708,2023-11-10,Uncategorized,60.0,Monthly stock-up
-5814f307-c604-439f-98ce-5def7592d8f9,2023-11-18,Uncategorized,30.0,Movie ticket
-acff67b4-683a-450a-bcee-f149b10e49a5,2023-12-05,Uncategorized,55.0,Fruits and vegetables
-365be8da-8b75-4076-a664-25688ae9faf9,2023-12-15,Uncategorized,120.0,Electricity bill
+6f78f72c-cb96-4620-a783-49591aa68c91,2024-01-27 00:00:00,Uncategorized,109.48,Gadgets
+6f0489e4-d718-4b44-adc8-619b861928dc,2024-02-25 00:00:00,Uncategorized,49.82,Taxi ride
+6ba8f449-de14-4bd0-b82f-08bf7d1567c6,2024-04-09 00:00:00,Uncategorized,81.37,Movie ticket
+c5efd3f1-7ea9-4eb1-9f4a-5e98c1bc8b36,2024-02-25 00:00:00,Uncategorized,52.59,Theater play
+1149baab-384c-41fe-bf69-98c7d0831c14,2024-01-25 00:00:00,Uncategorized,32.19,Lunch out
+e58c7a09-264b-4cfe-85e3-7b627b35a7a9,2024-04-01 00:00:00,Uncategorized,57.31,Fruits and vegetables
+aeffc409-2fe7-48c0-8bdd-89386a0d4227,2024-01-23 00:00:00,Uncategorized,42.37,Theater play
+9f2827ed-ed42-4653-9789-7a031fff33ac,2024-01-22 00:00:00,Uncategorized,23.74,Metro pass
+5ef6cf4a-48bc-426b-8fca-e8a0357da7d7,2024-01-09 00:00:00,Uncategorized,34.73,Taxi ride
+c434c181-1ccc-47f2-b4f4-242de30cc2ae,2024-02-08 00:00:00,Uncategorized,119.86,Lunch out
+a41a3bcf-9adc-4255-b60b-90514c8b4d64,2024-01-21 00:00:00,Uncategorized,44.57,Books
+94f7c3ac-f36d-452a-a2e0-80adceb5540d,2024-04-26 00:00:00,Uncategorized,85.91,Health insurance
+1b207d14-522b-46f2-9ba8-14edbc2a1ad9,2024-03-30 00:00:00,Uncategorized,45.75,Concert
+4012c7d2-7232-4fa4-b64a-1bfd120636bb,2024-04-23 00:00:00,Uncategorized,60.9,Bus fare
+18e1d5c1-283d-4360-8a1d-36d32fd55858,2024-02-10 00:00:00,Uncategorized,21.09,Gadgets
+05a9fd2c-804b-4adb-a49b-664225a487af,2024-02-11 00:00:00,Uncategorized,43.68,Lunch out
+558761f6-ea39-4a95-b8fc-7dd242b894f3,2024-03-18 00:00:00,Uncategorized,145.53,Health insurance
+0a021619-67c8-4078-9aed-af413b179b3c,2024-04-13 00:00:00,Uncategorized,40.75,Dinner with friends
+455e8c25-8cd6-4da6-a335-0a4e01c5f6a4,2024-04-20 00:00:00,Uncategorized,24.86,Fruits and vegetables
+c27acb0f-c607-4e7b-b040-4f57f75e24ba,2024-01-21 00:00:00,Uncategorized,44.29,Streaming service
+8ed6f942-887b-41ea-ac66-55ba6a9df399,2024-01-07 00:00:00,Uncategorized,66.59,Monthly stock-up
+e294c982-945b-4dae-919b-21299df94136,2024-03-19 00:00:00,Uncategorized,128.85,Concert
+745958b1-80f8-483c-b159-4eb4969ba61b,2024-04-09 00:00:00,Uncategorized,147.42,Dinner with friends
+04cf5712-2527-4eba-9861-05d052f15055,2024-04-01 00:00:00,Uncategorized,19.9,Gas bill
+5edcd344-d8bc-4622-a98e-668672d53242,2024-01-23 00:00:00,Uncategorized,35.62,Online course
+17941ad3-a158-4e3a-8dd4-24be93c2f124,2024-01-30 00:00:00,Uncategorized,120.08,Electricity bill
+6314e42c-e78c-4f13-b670-e9141e5f5070,2024-04-08 00:00:00,Uncategorized,41.28,Theater play
+6ca576b1-a18e-4a9a-bc3c-8d493a6e7e82,2024-04-08 00:00:00,Uncategorized,80.18,Gym membership
+b90774c6-cb0f-4a3b-9d3c-91d86d664b05,2024-04-07 00:00:00,Uncategorized,41.24,Fruits and vegetables
+3c9d0423-038b-4758-be60-72bc70738359,2024-03-22 00:00:00,Uncategorized,120.23,Fruits and vegetables
+a652f1d5-f76e-4747-be7c-9f63af84f208,2024-02-13 00:00:00,Uncategorized,135.27,Theater play
+0581a580-f0e8-4cc2-8c1b-f487b114f4c0,2024-03-31 00:00:00,Uncategorized,59.31,New clothes
+d94c5033-4002-4c69-9f6f-66a61ca6f0ff,2024-04-30 00:00:00,Uncategorized,133.34,Theater play
+d9e0af68-150d-4ddb-b704-617c59239658,2024-02-14 00:00:00,Uncategorized,30.43,Electricity bill
+458789f8-0e59-4b8d-9082-76143cb9db52,2024-03-20 00:00:00,Uncategorized,107.79,Lunch out
+06e855f6-22a3-4834-b31c-b7921e657474,2024-03-04 00:00:00,Uncategorized,131.87,Water bill
+6ab9d5c2-4168-4098-ad88-431201aaf059,2024-01-22 00:00:00,Uncategorized,122.4,Tuition fee
+f0556249-fa7b-4289-a587-2cd755f95aa7,2024-02-09 00:00:00,Uncategorized,56.21,Tuition fee
+7fc9d319-f2af-43b1-9315-d7cedc80326c,2024-04-14 00:00:00,Uncategorized,146.38,Taxi ride
+dc19e925-3938-4dbf-a750-4a13441f5c69,2024-04-21 00:00:00,Uncategorized,97.76,Gas bill
+880a1633-e03c-45a4-941b-ecfc65cdb528,2024-04-09 00:00:00,Uncategorized,118.7,Online course
+18b7f0ee-5231-489e-a16f-e86ae24c15d0,2024-03-28 00:00:00,Uncategorized,67.82,Weekly groceries
+19a92319-0092-4cd6-b04f-e90d660554b1,2024-02-26 00:00:00,Uncategorized,81.9,Gadgets
+cbbdd556-a386-4ef2-81e2-75a0b6cdd1f8,2024-02-15 00:00:00,Uncategorized,82.27,Doctor visit
+7aa2430d-5959-4da6-9f50-5bf33cc4bdd3,2024-04-26 00:00:00,Uncategorized,131.31,Water bill
+794e5b5d-4777-41b3-87b7-36780bbc63b4,2024-03-01 00:00:00,Uncategorized,46.6,Streaming service
+b57387b5-81f5-4a90-92d0-9120bdcbade0,2024-04-17 00:00:00,Uncategorized,112.42,Pharmacy
+ef75383a-c305-4990-a2cc-7473e4a584bb,2024-02-04 00:00:00,Uncategorized,97.24,Dinner with friends
+04baa557-5806-4a64-9e12-833cb909f6b1,2024-02-28 00:00:00,Uncategorized,72.85,Health insurance
+579fc695-777d-4143-9f83-90ef6b5770bd,2024-01-17 00:00:00,Uncategorized,90.5,Fast food
+86884012-d210-49d2-8f38-77f78c0117f0,2024-03-11 00:00:00,Uncategorized,18.62,Fruits and vegetables
+272c78f7-37e8-476f-84c6-2f8d40ae24b2,2024-02-11 00:00:00,Uncategorized,66.39,Books
+a9a1c12f-ede1-4ba8-b2ec-25c51d42ce0e,2024-03-27 00:00:00,Uncategorized,112.73,Weekly groceries
+49056abd-2655-43ce-8195-c685920fb343,2024-02-26 00:00:00,Uncategorized,86.59,Water bill
+f117497f-9db9-4d68-83a2-308cc4bd26bb,2024-03-22 00:00:00,Uncategorized,97.12,Stationery
+307dbf6b-a688-4ec8-8acc-a3121fd5aa89,2024-01-20 00:00:00,Uncategorized,132.42,Fuel refill
+a6c2f4ff-060e-4fdd-838e-a3533d11284b,2024-03-21 00:00:00,Uncategorized,35.95,Fruits and vegetables
+5cf8223c-0fa2-41c2-8882-948efaa4ff16,2024-01-30 00:00:00,Uncategorized,142.84,Fuel refill
+3a2b8fe2-c9ff-42c4-9083-c7d38e210046,2024-01-11 00:00:00,Uncategorized,36.27,Electricity bill
+266a4fbb-c856-48e3-bcbb-f3fe136377cb,2024-04-10 00:00:00,Uncategorized,42.73,Health insurance
+4916e5d4-4322-4420-818f-4f1b2aeb3ab0,2024-04-24 00:00:00,Uncategorized,71.59,Books
+93aaec92-9924-42ba-bb36-4a68b72bea65,2024-04-21 00:00:00,Uncategorized,64.02,Metro pass
+3136903c-2dca-43b8-b2ae-c941c493b1b3,2024-01-20 00:00:00,Uncategorized,61.5,Theater play
+9b76b2e4-7914-4b1c-ad59-092018e8e880,2024-01-07 00:00:00,Uncategorized,146.51,Streaming service
+ae5576b3-0cf8-43d0-a6ea-590a2f1fd288,2024-01-19 00:00:00,Uncategorized,84.36,Electricity bill
+639e0c1c-1521-4f72-9607-5def817193c9,2024-01-25 00:00:00,Uncategorized,134.92,Taxi ride
+02736d7d-bb24-43dc-9da5-66a4467266bf,2024-01-19 00:00:00,Uncategorized,100.43,Fruits and vegetables
+64d97213-be40-405d-80bc-8871af21dffa,2024-01-20 00:00:00,Uncategorized,114.74,Movie ticket
+3f6d9bf0-f381-4fb0-bc3b-1017ebbf8194,2024-03-14 00:00:00,Uncategorized,59.33,Electricity bill
+83c3eff7-70c8-492b-a874-945f9194371c,2024-02-19 00:00:00,Uncategorized,74.37,Concert
+b082bedd-1c98-4264-ae1a-bfcd731802c3,2024-03-30 00:00:00,Uncategorized,29.38,Home decor
+c402d01b-14a9-4bdd-819a-d2979347b243,2024-03-30 00:00:00,Uncategorized,132.13,Fuel refill
+0a4f13de-f9b8-4d9d-9f18-d96b7dd461b0,2024-02-05 00:00:00,Uncategorized,71.35,Concert
+cb8d655f-bac7-4934-9bd3-f15050cdca6b,2024-04-06 00:00:00,Uncategorized,46.32,Electricity bill
+30ea1672-2f93-427d-bea3-a0ff02a9eb0c,2024-03-21 00:00:00,Uncategorized,23.72,Water bill
+15cd54e1-4eae-4e90-be21-d82cda813a29,2024-02-11 00:00:00,Uncategorized,100.16,Tuition fee
+6655ba8c-2842-486f-86c5-618978996958,2024-01-28 00:00:00,Uncategorized,49.39,Supermarket run
+3fa15510-e0bc-495d-bc1f-03737fe4fd56,2024-04-22 00:00:00,Uncategorized,103.05,Movie ticket
+9facc2c2-261c-4acb-b75b-ab1b78184c31,2024-02-11 00:00:00,Uncategorized,28.23,Home decor
+271baae4-3770-4dd2-aa1f-b59150811a64,2024-01-01 00:00:00,Uncategorized,137.24,New clothes
+3c76b84f-4e9b-4753-a0bd-e49fb2653236,2024-02-13 00:00:00,Uncategorized,140.27,Fuel refill
+42489303-2a73-4b30-a1a0-6565928fbc4c,2024-03-17 00:00:00,Uncategorized,15.77,Gadgets
+8f8631cc-14df-4e54-a7a8-b0fa867bb269,2024-01-16 00:00:00,Uncategorized,140.1,Lunch out
+7e05a19a-beee-445f-8101-243ea4ec2c48,2024-03-05 00:00:00,Uncategorized,80.51,Metro pass
+73e76ba4-fb77-47f4-919f-0e437693aa2d,2024-04-16 00:00:00,Uncategorized,72.87,Online course
+e42fb0a0-bd6a-4d7c-b81c-3c57b15f5528,2024-04-18 00:00:00,Uncategorized,139.63,Gym membership
+d8b79afc-85b3-4b07-b6fa-3044b3407ecd,2024-02-14 00:00:00,Uncategorized,138.3,Home decor
+5c0a8fa0-4991-400f-aedd-4c51cc2b5627,2024-03-03 00:00:00,Uncategorized,14.93,Doctor visit
+f13d1701-0a58-40b4-8021-cd57308f61cb,2024-02-25 00:00:00,Uncategorized,35.55,Concert
+e3a8cf31-f39c-4210-b806-e7a3683761fe,2024-02-28 00:00:00,Uncategorized,99.78,Lunch out
+7879c47d-7237-4b04-9a59-70f8650cd7f0,2024-04-08 00:00:00,Uncategorized,131.69,Books
+37573b52-cbe2-44c3-9b4d-cb66d09039e5,2024-03-31 00:00:00,Uncategorized,135.46,Home decor
+70abb824-28d9-4c55-abeb-bd639ecd4cfc,2024-03-02 00:00:00,Uncategorized,53.69,Dinner with friends
+381230e6-adab-4be7-af06-21c6cb3a2772,2024-03-27 00:00:00,Uncategorized,36.94,Gadgets
+be3468d1-eb12-4e5a-a81e-dd9afc0cdb6f,2024-03-16 00:00:00,Uncategorized,35.06,Lunch out
+00bd1ca4-d780-4ed0-b500-5310a712a6d0,2024-03-05 00:00:00,Uncategorized,24.37,Water bill
+eebaebd1-241b-45b5-986e-621761ca5f9e,2024-02-10 00:00:00,Uncategorized,148.47,Bus fare
+7e10b2b1-00d1-44cc-b252-600321723a55,2024-01-10 00:00:00,Uncategorized,133.86,Tuition fee
+b0c9743b-9464-4432-baa8-89dcf91f8f54,2024-04-12 00:00:00,Uncategorized,41.19,Fast food
+a9416564-6efe-4bbc-ba05-caa83e7363c8,2024-03-02 00:00:00,Uncategorized,12.16,Fuel refill
+27ef0628-40d3-4277-9cfd-3fb1f9af5bcb,2023-10-15 00:00:00,Uncategorized,50.0,Weekly groceries
+ee4a3ca7-05cd-450d-9374-a055398a6a37,2023-10-20 00:00:00,Uncategorized,25.0,Bus fare
+4efd0675-4b3a-4552-9b27-1f515e936708,2023-11-10 00:00:00,Uncategorized,60.0,Monthly stock-up
+5814f307-c604-439f-98ce-5def7592d8f9,2023-11-18 00:00:00,Uncategorized,30.0,Movie ticket
+acff67b4-683a-450a-bcee-f149b10e49a5,2023-12-05 00:00:00,Uncategorized,55.0,Fruits and vegetables
+365be8da-8b75-4076-a664-25688ae9faf9,2023-12-15 00:00:00,Uncategorized,120.0,Electricity bill
+3d83dc7c-d386-4e80-a79c-532fe81e46cb,2023-10-15 00:00:00,Uncategorized,50.0,Weekly groceries
+a22ff3d5-9f9a-4847-a79e-1ce98472b442,2023-10-20 00:00:00,Uncategorized,25.0,Bus fare
+b89ae6b9-7106-4a47-9db0-0eec5e02a0b2,2023-11-10 00:00:00,Uncategorized,60.0,Monthly stock-up
+d8026109-924e-47ef-8bcc-e3c45e270d08,2023-11-18 00:00:00,Uncategorized,30.0,Movie ticket
+292456dc-459c-4385-a70d-3726cc5547ee,2023-12-05 00:00:00,Uncategorized,55.0,Fruits and vegetables
+6d1ae820-5cbc-424a-9297-8fcb9cc42b54,2023-12-15 00:00:00,Uncategorized,120.0,Electricity bill
+475d6ee9-77f9-43e4-ab7d-7f7fbca3f0db,2024-01-27 00:00:00,Uncategorized,109.48,Gadgets
+be3d05f3-890a-4f74-9f36-6b40c706f7c2,2024-02-25 00:00:00,Uncategorized,49.82,Taxi ride
+3b227c9d-640c-4575-b5aa-30f20e1686ce,2024-04-09 00:00:00,Uncategorized,81.37,Movie ticket
+aa4a30ac-3555-4c9d-adc5-45254501a699,2024-02-25 00:00:00,Uncategorized,52.59,Theater play
+7addbd23-2e44-43e4-a4c3-13ca9a1c2544,2024-01-25 00:00:00,Uncategorized,32.19,Lunch out
+344dae7f-d80e-4e32-b7aa-7c38332c1dbd,2024-04-01 00:00:00,Uncategorized,57.31,Fruits and vegetables
+b8df96e3-0554-4dd8-82ba-4d9f4a266cb6,2024-01-23 00:00:00,Uncategorized,42.37,Theater play
+26aeb101-bb51-4466-a3fc-09d61274a5d8,2024-01-22 00:00:00,Uncategorized,23.74,Metro pass
+2c061c3b-e913-4d20-b9f6-08303f800ce4,2024-01-09 00:00:00,Uncategorized,34.73,Taxi ride
+6e8d06c0-714a-427d-9cd1-a4d6513cec72,2024-02-08 00:00:00,Uncategorized,119.86,Lunch out
+042a5da3-e85c-4035-92df-bf49058adf73,2024-01-21 00:00:00,Uncategorized,44.57,Books
+884880fb-d941-4779-8cfd-0509298bc17b,2024-04-26 00:00:00,Uncategorized,85.91,Health insurance
+34f37e5f-7eb2-4d60-ab86-e630676588ca,2024-03-30 00:00:00,Uncategorized,45.75,Concert
+f2e2796b-fe71-40db-9750-f38deaf00440,2024-04-23 00:00:00,Uncategorized,60.9,Bus fare
+3759a47f-7f38-4f5b-a6ae-5f8044502c65,2024-02-10 00:00:00,Uncategorized,21.09,Gadgets
+41370d4a-6592-4438-8ffb-6f1e0738c186,2024-02-11 00:00:00,Uncategorized,43.68,Lunch out
+d04bcb41-0514-4a08-8e4e-b8b31535f04e,2024-03-18 00:00:00,Uncategorized,145.53,Health insurance
+7d3f11e4-5b07-4b2a-99c4-0332ae39577b,2024-04-13 00:00:00,Uncategorized,40.75,Dinner with friends
+0963a643-bf84-4a21-9ee3-1ada9012f864,2024-04-20 00:00:00,Uncategorized,24.86,Fruits and vegetables
+b8778cb7-2641-43bf-be5e-b2834fd65035,2024-01-21 00:00:00,Uncategorized,44.29,Streaming service
+2488185e-4a23-4f64-a08b-5847fcf19816,2024-01-07 00:00:00,Uncategorized,66.59,Monthly stock-up
+6f02afd3-45e8-4324-b072-0158fb7ac101,2024-03-19 00:00:00,Uncategorized,128.85,Concert
+6be5362b-0042-48de-8534-143270d4be6f,2024-04-09 00:00:00,Uncategorized,147.42,Dinner with friends
+510862fe-9510-4ab7-b6ee-2ce1aed7ec17,2024-04-01 00:00:00,Uncategorized,19.9,Gas bill
+2100be72-2e63-4c59-976e-e47759b23da7,2024-01-23 00:00:00,Uncategorized,35.62,Online course
+d30db121-64fb-4849-82bd-204bf8ee1438,2024-01-30 00:00:00,Uncategorized,120.08,Electricity bill
+2ed71c24-04f8-4e8b-a79e-37791db7f6b2,2024-04-08 00:00:00,Uncategorized,41.28,Theater play
+0bc6faf5-865f-4d43-b535-9eb0d98eba5c,2024-04-08 00:00:00,Uncategorized,80.18,Gym membership
+1fe857fd-5a42-4720-b265-5d300795200c,2024-04-07 00:00:00,Uncategorized,41.24,Fruits and vegetables
+27b31d77-bb0b-46d9-800b-fb9425e63fdc,2024-03-22 00:00:00,Uncategorized,120.23,Fruits and vegetables
+35035439-f0d0-460e-84f2-5420e7d89f99,2024-02-13 00:00:00,Uncategorized,135.27,Theater play
+dff87d51-1655-45ae-955b-75dc5ee3640c,2024-03-31 00:00:00,Uncategorized,59.31,New clothes
+01f27986-db58-42ce-a587-98376903c1e9,2024-04-30 00:00:00,Uncategorized,133.34,Theater play
+bdc638c7-c8e4-454d-996c-17cca2f08286,2024-02-14 00:00:00,Uncategorized,30.43,Electricity bill
+f2a5db3d-465b-4cd4-bf4f-e0f9d79f3955,2024-03-20 00:00:00,Uncategorized,107.79,Lunch out
+c2476e5d-8b29-439f-9054-1f884fc3cb04,2024-03-04 00:00:00,Uncategorized,131.87,Water bill
+76dde29b-cd45-4ff5-ae82-203cd82865be,2024-01-22 00:00:00,Uncategorized,122.4,Tuition fee
+8009e3f9-dad4-4536-81ad-f785676d72f4,2024-02-09 00:00:00,Uncategorized,56.21,Tuition fee
+0c03ca08-84cc-4b53-8c35-07bdb26d6cbb,2024-04-14 00:00:00,Uncategorized,146.38,Taxi ride
+c906886d-7fbe-422b-b514-9216b8020ca5,2024-04-21 00:00:00,Uncategorized,97.76,Gas bill
+6533ec67-9daf-4087-bfdf-5d9f2572d3b3,2024-04-09 00:00:00,Uncategorized,118.7,Online course
+711fa685-8052-4914-a2c6-99d5756abf54,2024-03-28 00:00:00,Uncategorized,67.82,Weekly groceries
+3fdc9fda-d4f0-47cb-aee7-50d75f788c10,2024-02-26 00:00:00,Uncategorized,81.9,Gadgets
+0e7d79f9-001f-40aa-b898-ee66317e3b26,2024-02-15 00:00:00,Uncategorized,82.27,Doctor visit
+57e01c79-00eb-466e-bc64-5e817c1006b2,2024-04-26 00:00:00,Uncategorized,131.31,Water bill
+6abe4e34-4046-4de4-9e39-cd68c9a51a54,2024-03-01 00:00:00,Uncategorized,46.6,Streaming service
+0b691ced-4909-4c09-8694-e8a15ebbbd28,2024-04-17 00:00:00,Uncategorized,112.42,Pharmacy
+08ccc0d1-4a56-466f-a95f-df35ba0c7b75,2024-02-04 00:00:00,Uncategorized,97.24,Dinner with friends
+5a8885d2-b0e2-4100-891e-104bc2540d81,2024-02-28 00:00:00,Uncategorized,72.85,Health insurance
+5074b0ad-2a11-412d-9db5-425cfbbdd594,2024-01-17 00:00:00,Uncategorized,90.5,Fast food
+38d0fdd5-28c3-4f10-9a76-1d60a67fa62c,2024-03-11 00:00:00,Uncategorized,18.62,Fruits and vegetables
+5a48b080-6989-48ea-84bf-fdb2f78952bc,2024-02-11 00:00:00,Uncategorized,66.39,Books
+0e81bd30-8948-4190-8caa-697a376defe8,2024-03-27 00:00:00,Uncategorized,112.73,Weekly groceries
+2f4730bf-1c88-4923-aa5d-2c1d9bea8ee3,2024-02-26 00:00:00,Uncategorized,86.59,Water bill
+521bebc4-157e-434e-b8f5-666fc86e9421,2024-03-22 00:00:00,Uncategorized,97.12,Stationery
+c00b78ff-f8d0-4b35-b94f-5c0fcc3ad8df,2024-01-20 00:00:00,Uncategorized,132.42,Fuel refill
+14b35c68-4040-4d9b-856e-01026d9a1fb6,2024-03-21 00:00:00,Uncategorized,35.95,Fruits and vegetables
+f2d4da32-d8da-4024-ad96-0c60a702ef7c,2024-01-30 00:00:00,Uncategorized,142.84,Fuel refill
+8b247492-732e-4a89-a4d2-3703e7551170,2024-01-11 00:00:00,Uncategorized,36.27,Electricity bill
+511c2980-4497-40a3-a8b5-9f7492a0fe17,2024-04-10 00:00:00,Uncategorized,42.73,Health insurance
+648a2acf-7075-4b39-bbf3-0df14bdb7bf7,2024-04-24 00:00:00,Uncategorized,71.59,Books
+2c0dadcf-7829-40b9-94cd-aba09b3ea332,2024-04-21 00:00:00,Uncategorized,64.02,Metro pass
+82e242ab-0439-4cc8-934f-f92bfc4d9cb1,2024-01-20 00:00:00,Uncategorized,61.5,Theater play
+f9e1a189-93e6-4eee-ba5a-c99fde997727,2024-01-07 00:00:00,Uncategorized,146.51,Streaming service
+a98ff3f1-518a-46a2-9451-c6ad432be7b1,2024-01-19 00:00:00,Uncategorized,84.36,Electricity bill
+3f9e5bd3-2982-4566-8f15-0d76e045eeaa,2024-01-25 00:00:00,Uncategorized,134.92,Taxi ride
+15074293-966f-44ce-ae3c-2ad890ebefe7,2024-01-19 00:00:00,Uncategorized,100.43,Fruits and vegetables
+d9b95606-4ecf-482d-8167-eb7ec17b81ee,2024-01-20 00:00:00,Uncategorized,114.74,Movie ticket
+db68fb80-8943-4315-9f1d-cc386486e7ec,2024-03-14 00:00:00,Uncategorized,59.33,Electricity bill
+0ad450ff-6256-4aba-90d8-e607e1c8fb69,2024-02-19 00:00:00,Uncategorized,74.37,Concert
+c67af368-d8fe-4e08-9468-363f7057cd10,2024-03-30 00:00:00,Uncategorized,29.38,Home decor
+16f567db-e66e-4b00-83cf-a3842eeb97a3,2024-03-30 00:00:00,Uncategorized,132.13,Fuel refill
+00d75f8b-b715-4da5-866f-f628263987c1,2024-02-05 00:00:00,Uncategorized,71.35,Concert
+e40f8b56-6f3c-48a5-b062-06e0633b34a5,2024-04-06 00:00:00,Uncategorized,46.32,Electricity bill
+5fd4abb4-e0a3-46e1-bf8d-0bf404f50591,2024-03-21 00:00:00,Uncategorized,23.72,Water bill
+cce4d6f1-da28-4977-8455-c29701b5177d,2024-02-11 00:00:00,Uncategorized,100.16,Tuition fee
+92a6f3ea-6507-4ca4-99d5-3eaeada537c8,2024-01-28 00:00:00,Uncategorized,49.39,Supermarket run
+3ea8b57c-47c6-4db3-b929-786c38f21f9d,2024-04-22 00:00:00,Uncategorized,103.05,Movie ticket
+b44271eb-b35e-496c-9bbe-d7ddc87dc1f7,2024-02-11 00:00:00,Uncategorized,28.23,Home decor
+90eab4a0-d4c0-4b43-9afc-f7dfdfe81450,2024-01-01 00:00:00,Uncategorized,137.24,New clothes
+1f39e7d7-a571-43d8-88ad-0238cd0b2b29,2024-02-13 00:00:00,Uncategorized,140.27,Fuel refill
+facf59be-6b1c-45b0-b7b4-36c93d0c6036,2024-03-17 00:00:00,Uncategorized,15.77,Gadgets
+ce884e49-01c6-4e21-90dd-f94b376f1c0f,2024-01-16 00:00:00,Uncategorized,140.1,Lunch out
+c6e7633a-64cd-4853-a67d-4de960107b9b,2024-03-05 00:00:00,Uncategorized,80.51,Metro pass
+ec359ea0-869b-4476-83db-51e24eeac40a,2024-04-16 00:00:00,Uncategorized,72.87,Online course
+2a7360a7-2b97-4968-851e-7f73102f30b6,2024-04-18 00:00:00,Uncategorized,139.63,Gym membership
+b7c68d75-b20c-46c4-ba01-8a41d60b1c59,2024-02-14 00:00:00,Uncategorized,138.3,Home decor
+179d4146-d2d8-4015-b62b-d4a8e561c9f3,2024-03-03 00:00:00,Uncategorized,14.93,Doctor visit
+827c931c-f2c9-47e7-86e5-5ac5effed4d0,2024-02-25 00:00:00,Uncategorized,35.55,Concert
+3f3de61f-133c-4b26-a56e-589bfdfbd72f,2024-02-28 00:00:00,Uncategorized,99.78,Lunch out
+2ceeb5c2-641c-42ef-ab6f-32fe949e6b1f,2024-04-08 00:00:00,Uncategorized,131.69,Books
+28b6e632-2ca8-4276-b966-b618413c928b,2024-03-31 00:00:00,Uncategorized,135.46,Home decor
+1b223ef0-686a-4ef9-8927-509730b90cb6,2024-03-02 00:00:00,Uncategorized,53.69,Dinner with friends
+a199ec64-cbc1-4545-8bf3-05e623cd04f2,2024-03-27 00:00:00,Uncategorized,36.94,Gadgets
+caf00340-0a54-4f7c-90a1-9af820fca8e3,2024-03-16 00:00:00,Uncategorized,35.06,Lunch out
+620bcd2e-a13f-4803-b651-2c607e787d65,2024-03-05 00:00:00,Uncategorized,24.37,Water bill
+3e3ad863-0e8a-4285-8829-c22c2613fe3c,2024-02-10 00:00:00,Uncategorized,148.47,Bus fare
+10e6267c-3f25-49af-8f05-1de3c6b52857,2024-01-10 00:00:00,Uncategorized,133.86,Tuition fee
+c0f44315-35d2-4039-8aa8-fe6a5ac79f1b,2024-04-12 00:00:00,Uncategorized,41.19,Fast food
+93f18a38-f484-4708-bd66-6ae1ab132270,2024-03-02 00:00:00,Uncategorized,12.16,Fuel refill
+c4683879-5efd-459f-bb0b-1dd0f1a0ba30,2023-10-15 00:00:00,Uncategorized,50.0,Weekly groceries
+4cfbe50e-c4d0-4d01-b45a-9b07c2d5c4ea,2023-10-20 00:00:00,Uncategorized,25.0,Bus fare
+6566eb61-377f-4278-b80a-d6fc9765e03d,2023-11-10 00:00:00,Uncategorized,60.0,Monthly stock-up
+a922cf81-bb4b-4f0c-b425-e9c2056f3cfe,2023-11-18 00:00:00,Uncategorized,30.0,Movie ticket
+ceafa0e8-f8ef-44d5-ac84-e5bb3f08da48,2023-12-05 00:00:00,Uncategorized,55.0,Fruits and vegetables
+5e1afac1-564c-4774-a819-a02538a2d3f4,2023-12-15 00:00:00,Uncategorized,120.0,Electricity bill
+4a217ef0-a46e-4788-8def-52df73b0f452,2024-01-27 00:00:00,Uncategorized,109.48,Gadgets
+9bdd9ee9-34a4-4c2e-ade7-951dd69fc81c,2024-02-25 00:00:00,Uncategorized,49.82,Taxi ride
+6231f571-c7c1-4a9f-8eff-8a804b8386a1,2024-04-09 00:00:00,Uncategorized,81.37,Movie ticket
+b6b9fe5c-c5d8-4996-989c-a76851109c8b,2024-02-25 00:00:00,Uncategorized,52.59,Theater play
+c4331339-70d8-4df4-b466-7a18caf05e02,2024-01-25 00:00:00,Uncategorized,32.19,Lunch out
+665e6432-a35d-4bcd-9cd9-05d079013136,2024-04-01 00:00:00,Uncategorized,57.31,Fruits and vegetables
+c8446824-91ca-4a5c-9cec-fe3c9db27c8b,2024-01-23 00:00:00,Uncategorized,42.37,Theater play
+ae08fc45-54cf-4c0a-947f-8ed05e5bd297,2024-01-22 00:00:00,Uncategorized,23.74,Metro pass
+9453457e-36b9-4687-bac5-4783ad886722,2024-01-09 00:00:00,Uncategorized,34.73,Taxi ride
+4d3d6bc4-c46f-4a6b-b1c5-45b64d1bd037,2024-02-08 00:00:00,Uncategorized,119.86,Lunch out
+d60e5a44-e366-470d-9225-c731628dda60,2024-01-21 00:00:00,Uncategorized,44.57,Books
+ed4d556c-cd2d-404c-825e-64f829066724,2024-04-26 00:00:00,Uncategorized,85.91,Health insurance
+b76eb928-8b4d-4bed-a49b-304982f16398,2024-03-30 00:00:00,Uncategorized,45.75,Concert
+3abb7aea-b0ef-4c60-88a3-6edb2c088d80,2024-04-23 00:00:00,Uncategorized,60.9,Bus fare
+da2e2057-c65b-4366-83aa-ba2279b2f9cc,2024-02-10 00:00:00,Uncategorized,21.09,Gadgets
+a4238ad2-020b-4b60-b195-0c04cb43873f,2024-02-11 00:00:00,Uncategorized,43.68,Lunch out
+d85674cd-ca31-4e97-a085-60da045f0e0c,2024-03-18 00:00:00,Uncategorized,145.53,Health insurance
+2399010f-5286-43a2-b0ee-ef15f1672bf6,2024-04-13 00:00:00,Uncategorized,40.75,Dinner with friends
+cf7b4235-22d5-4a28-96a5-85e95b42b07f,2024-04-20 00:00:00,Uncategorized,24.86,Fruits and vegetables
+f9a83e67-0c1b-42ca-b242-641311fe6a4f,2024-01-21 00:00:00,Uncategorized,44.29,Streaming service
+327bd215-0727-4d57-baa1-2ff187d45e02,2024-01-07 00:00:00,Uncategorized,66.59,Monthly stock-up
+f597b049-974a-4035-8425-4e25db02259b,2024-03-19 00:00:00,Uncategorized,128.85,Concert
+5edcbe25-2d40-49e0-9c7e-1b425876075b,2024-04-09 00:00:00,Uncategorized,147.42,Dinner with friends
+5395e71e-d4dd-4259-933b-e79b9fa107e7,2024-04-01 00:00:00,Uncategorized,19.9,Gas bill
+a09a9302-476d-481f-b672-446b327b80a6,2024-01-23 00:00:00,Uncategorized,35.62,Online course
+5cb7d4d3-f7e5-4d22-ba07-e57de3427367,2024-01-30 00:00:00,Uncategorized,120.08,Electricity bill
+05920022-fe2c-42ce-8ab5-6941451eb7d3,2024-04-08 00:00:00,Uncategorized,41.28,Theater play
+2c30f50a-2c54-4a89-ab76-a52a805c972d,2024-04-08 00:00:00,Uncategorized,80.18,Gym membership
+d221e706-ec80-48de-b8d8-b22a53287cbd,2024-04-07 00:00:00,Uncategorized,41.24,Fruits and vegetables
+7128d316-1885-4a9d-9940-b0e4236389a6,2024-03-22 00:00:00,Uncategorized,120.23,Fruits and vegetables
+b4bf23cf-93c5-484c-b5f6-ef88cf50168a,2024-02-13 00:00:00,Uncategorized,135.27,Theater play
+87728546-5d52-4adb-8b70-de015311a36d,2024-03-31 00:00:00,Uncategorized,59.31,New clothes
+5f74475c-13c5-4122-be53-8c87aa8c256d,2024-04-30 00:00:00,Uncategorized,133.34,Theater play
+34533c75-ca2f-4c57-ac27-1bf1c65f009d,2024-02-14 00:00:00,Uncategorized,30.43,Electricity bill
+6d8c0d98-848f-4b08-ba2d-af06adcc1e7e,2024-03-20 00:00:00,Uncategorized,107.79,Lunch out
+6cad2046-18e8-4019-a1a3-d487e0a8fb9f,2024-03-04 00:00:00,Uncategorized,131.87,Water bill
+a07d0898-9c8b-4620-92e4-3ea18eaf7d04,2024-01-22 00:00:00,Uncategorized,122.4,Tuition fee
+09c0b887-cbba-4292-ba43-211b51f8ca40,2024-02-09 00:00:00,Uncategorized,56.21,Tuition fee
+10ff5a11-00d6-41c2-b9c0-622e71ec3515,2024-04-14 00:00:00,Uncategorized,146.38,Taxi ride
+a9486a9f-0b64-406a-93a6-1210c90a1d68,2024-04-21 00:00:00,Uncategorized,97.76,Gas bill
+9ac14136-9fae-4ef7-8db9-206619d696ff,2024-04-09 00:00:00,Uncategorized,118.7,Online course
+794f0fc9-3fcc-4780-bda3-0b336198280b,2024-03-28 00:00:00,Uncategorized,67.82,Weekly groceries
+e6cdeec8-58ab-488d-ae47-528a51a15e4c,2024-02-26 00:00:00,Uncategorized,81.9,Gadgets
+2b23328a-fe5b-447c-ad00-c1ac978fdff6,2024-02-15 00:00:00,Uncategorized,82.27,Doctor visit
+55497355-04ab-4277-8812-ad8f01a1768f,2024-04-26 00:00:00,Uncategorized,131.31,Water bill
+6c999272-80f6-4713-840c-af9226c18c74,2024-03-01 00:00:00,Uncategorized,46.6,Streaming service
+bd319b53-7b3e-4782-b512-33bb7f3d11dd,2024-04-17 00:00:00,Uncategorized,112.42,Pharmacy
+63251d63-39db-4ebb-9820-9f8d6ee86e49,2024-02-04 00:00:00,Uncategorized,97.24,Dinner with friends
+a82904fa-0f45-4a36-9756-d43c09b31d12,2024-02-28 00:00:00,Uncategorized,72.85,Health insurance
+40cc5a7a-7aec-48fe-bf36-b8664561266c,2024-01-17 00:00:00,Uncategorized,90.5,Fast food
+f1d1c6ad-3f44-493e-be6d-8fb4643fd237,2024-03-11 00:00:00,Uncategorized,18.62,Fruits and vegetables
+ffe423bf-50cb-455a-9c80-f758e7df4fc2,2024-02-11 00:00:00,Uncategorized,66.39,Books
+1fe82d8e-ccd0-4c19-b242-43c48ef682fc,2024-03-27 00:00:00,Uncategorized,112.73,Weekly groceries
+1d7dea9e-7975-4b64-baa5-0f2defaa2dce,2024-02-26 00:00:00,Uncategorized,86.59,Water bill
+f99f1a9a-9930-46aa-8b8c-0e7e74f420b9,2024-03-22 00:00:00,Uncategorized,97.12,Stationery
+ee5998b5-89b3-42a0-9ec8-3b2f8d07ccf9,2024-01-20 00:00:00,Uncategorized,132.42,Fuel refill
+cae6afb8-a260-4488-83a0-c88f08da0f5e,2024-03-21 00:00:00,Uncategorized,35.95,Fruits and vegetables
+0c56e1a2-671b-4bf6-bdbd-4a15506b244d,2024-01-30 00:00:00,Uncategorized,142.84,Fuel refill
+bfef5a8f-85ff-44ad-b2d8-dd9e68552dcb,2024-01-11 00:00:00,Uncategorized,36.27,Electricity bill
+8cdb70be-6b86-4ec7-ab90-39791d6f6fb0,2024-04-10 00:00:00,Uncategorized,42.73,Health insurance
+2ea3cfb9-09dc-4511-a7e0-39d80db17cd5,2024-04-24 00:00:00,Uncategorized,71.59,Books
+765fb0e6-0ed0-426f-ae97-041d97c4cf6b,2024-04-21 00:00:00,Uncategorized,64.02,Metro pass
+183a264b-2985-44b7-b21f-68616128b74e,2024-01-20 00:00:00,Uncategorized,61.5,Theater play
+d3e926b8-590e-4ac4-b53d-3ce124ffa7f7,2024-01-07 00:00:00,Uncategorized,146.51,Streaming service
+42da2d7a-156f-41b2-be6d-dd39a40476ea,2024-01-19 00:00:00,Uncategorized,84.36,Electricity bill
+0c62aec7-50a6-493c-b87a-abc9bdf932f2,2024-01-25 00:00:00,Uncategorized,134.92,Taxi ride
+ff853a72-27b2-4f75-9f52-022652b64c25,2024-01-19 00:00:00,Uncategorized,100.43,Fruits and vegetables
+373a1266-550b-4b88-aea4-099c5080941a,2024-01-20 00:00:00,Uncategorized,114.74,Movie ticket
+4b0f4933-3b00-4af3-be39-8b674e18d32b,2024-03-14 00:00:00,Uncategorized,59.33,Electricity bill
+79e02f67-fa2a-4a21-9f4c-861e69318a61,2024-02-19 00:00:00,Uncategorized,74.37,Concert
+62581f85-a40c-4807-9c9f-15aac78cea8b,2024-03-30 00:00:00,Uncategorized,29.38,Home decor
+aec69f6c-03d1-4335-b1b5-42579ef78d30,2024-03-30 00:00:00,Uncategorized,132.13,Fuel refill
+1d974a3d-c453-4ad9-82d6-8decd14cd927,2024-02-05 00:00:00,Uncategorized,71.35,Concert
+fc240e6e-ea75-40b0-88d4-8d868ecdb392,2024-04-06 00:00:00,Uncategorized,46.32,Electricity bill
+b57edc3b-bad4-453a-8234-6ec3c0e54273,2024-03-21 00:00:00,Uncategorized,23.72,Water bill
+2b498d6d-c777-482e-9b22-ed05b47f0189,2024-02-11 00:00:00,Uncategorized,100.16,Tuition fee
+c791c34e-8fc2-4cf1-b048-c91a335a2677,2024-01-28 00:00:00,Uncategorized,49.39,Supermarket run
+30cbe7d6-7761-4482-a12c-cdd9652d9fc0,2024-04-22 00:00:00,Uncategorized,103.05,Movie ticket
+d7ecac92-13f8-409f-8d5c-229cffb9d5f8,2024-02-11 00:00:00,Uncategorized,28.23,Home decor
+2c1bf26d-ab99-4318-baf5-5400968bfc9d,2024-01-01 00:00:00,Uncategorized,137.24,New clothes
+d8b7f4d5-f20e-4bc0-bb1d-30470e3ae819,2024-02-13 00:00:00,Uncategorized,140.27,Fuel refill
+4626387c-7b9d-4781-a022-a87653572c34,2024-03-17 00:00:00,Uncategorized,15.77,Gadgets
+7a75df5e-9a60-4efe-a254-9cf59f7880cc,2024-01-16 00:00:00,Uncategorized,140.1,Lunch out
+bf483414-56fc-469d-b2c5-ff5c35ef66ea,2024-03-05 00:00:00,Uncategorized,80.51,Metro pass
+4412f7c8-9022-4d0b-b0d3-fdf198f1918e,2024-04-16 00:00:00,Uncategorized,72.87,Online course
+83795ebf-1f8a-40a5-a5fc-896599f70ade,2024-04-18 00:00:00,Uncategorized,139.63,Gym membership
+3384a0aa-fc1c-4c1b-a1b2-f336fbf0ecbd,2024-02-14 00:00:00,Uncategorized,138.3,Home decor
+52260008-9abc-4811-a018-761dc13301e3,2024-03-03 00:00:00,Uncategorized,14.93,Doctor visit
+c556bdab-81c7-43b3-abff-e843f1e9d885,2024-02-25 00:00:00,Uncategorized,35.55,Concert
+de8ebcd3-ee16-4159-9f4c-ded9e63aea3c,2024-02-28 00:00:00,Uncategorized,99.78,Lunch out
+5eeed6f4-525e-4296-8fa0-5c6ebe4d1294,2024-04-08 00:00:00,Uncategorized,131.69,Books
+e857c55b-6066-48fa-9eac-1c009b3324e4,2024-03-31 00:00:00,Uncategorized,135.46,Home decor
+dcf8ccf5-3770-4d73-9d2b-4d7c5af9d7ae,2024-03-02 00:00:00,Uncategorized,53.69,Dinner with friends
+774d3611-de6a-42eb-8627-6174b2425fd6,2024-03-27 00:00:00,Uncategorized,36.94,Gadgets
+73d15dc5-a205-424a-854c-bf198fdf705b,2024-03-16 00:00:00,Uncategorized,35.06,Lunch out
+f39933f9-d2ea-40c9-b260-58c8e1d5e0de,2024-03-05 00:00:00,Uncategorized,24.37,Water bill
+b7f74d1e-f48e-4a1d-8932-d555c54815bd,2024-02-10 00:00:00,Uncategorized,148.47,Bus fare
+5de34fc8-1ba1-4258-9e29-66b8a34c40cc,2024-01-10 00:00:00,Uncategorized,133.86,Tuition fee
+499509ab-7e45-4518-aaa8-353013f54ae3,2024-04-12 00:00:00,Uncategorized,41.19,Fast food
+840936d8-7a7a-40e9-bc03-9959fa38b6b0,2024-03-02 00:00:00,Uncategorized,12.16,Fuel refill
+c76c2d42-9c5a-4872-b429-13f4520d41c2,2023-10-15 00:00:00,Uncategorized,50.0,Weekly groceries
+a388c917-43cd-45a6-9dc8-709ad81ca889,2023-10-20 00:00:00,Uncategorized,25.0,Bus fare
+05fb1e88-9b27-42fc-a6c7-5f2f759ba1f8,2023-11-10 00:00:00,Uncategorized,60.0,Monthly stock-up
+1bf04544-7137-48c9-abdd-54c588aef799,2023-11-18 00:00:00,Uncategorized,30.0,Movie ticket
+860ddeae-6cce-4758-93c1-066257c6f2a5,2023-12-05 00:00:00,Uncategorized,55.0,Fruits and vegetables
+3577ecd9-9030-423f-934a-459ff4a5c865,2023-12-15 00:00:00,Uncategorized,120.0,Electricity bill
+006b1896-7778-4264-b9cf-695ae603f7e8,2023-10-15 00:00:00,Uncategorized,50.0,Weekly groceries
+5e6e1a2f-614c-43f8-8897-cf8c322b13ff,2023-10-20 00:00:00,Uncategorized,25.0,Bus fare
+44557d0e-3698-4303-b334-c346458501e1,2023-11-10 00:00:00,Uncategorized,60.0,Monthly stock-up
+b556d2be-2313-43a9-813b-29cba7da19e1,2023-11-18 00:00:00,Uncategorized,30.0,Movie ticket
+5a191ead-fcdb-44a6-bc7d-d3612b580916,2023-12-05 00:00:00,Uncategorized,55.0,Fruits and vegetables
+ff498655-7b84-4df4-b26e-bc2df98b11be,2023-12-15 00:00:00,Uncategorized,120.0,Electricity bill
+8924d118-ed5e-4484-aeb0-0678efac74db,2025-06-29 00:00:00,Entertainment,2.96,
+bc4f9dc9-4e5b-44ee-945c-39ee5454e5a4,2024-01-27 00:00:00,Uncategorized,109.48,Gadgets
+93b2f024-8008-499a-9f6b-55869e7b8e71,2024-02-25 00:00:00,Uncategorized,49.82,Taxi ride
+33d6cd48-0069-4942-b206-f19ad2b6ef9a,2024-04-09 00:00:00,Uncategorized,81.37,Movie ticket
+4fbc3e96-6552-475b-b15b-6a9657adcf34,2024-02-25 00:00:00,Uncategorized,52.59,Theater play
+2f664811-a0bf-44e5-9298-d824c66e48c7,2024-01-25 00:00:00,Uncategorized,32.19,Lunch out
+bd4f3e12-93b1-4704-80e6-708d8e00df54,2024-04-01 00:00:00,Uncategorized,57.31,Fruits and vegetables
+08126d60-c306-45e2-a0a5-96705c1a42e7,2024-01-23 00:00:00,Uncategorized,42.37,Theater play
+a19b32c4-8cf7-4053-8fc3-d5ffdffbc2ea,2024-01-22 00:00:00,Uncategorized,23.74,Metro pass
+ffee7c76-42b5-42f7-ad1b-1d8351663fc6,2024-01-09 00:00:00,Uncategorized,34.73,Taxi ride
+b518eb6f-0aa4-476f-ae7a-2acdaa009190,2024-02-08 00:00:00,Uncategorized,119.86,Lunch out
+83cbf504-474c-4bc9-9e24-c6a087c03b9a,2024-01-21 00:00:00,Uncategorized,44.57,Books
+c4e6e3eb-d130-42dd-963e-fecec4136f6f,2024-04-26 00:00:00,Uncategorized,85.91,Health insurance
+cd61ade4-ef76-485f-9af2-71cf1db0fb5a,2024-03-30 00:00:00,Uncategorized,45.75,Concert
+7db0263d-fed8-4e30-86d4-7618c5b4d72a,2024-04-23 00:00:00,Uncategorized,60.9,Bus fare
+fbf7cb4d-c65b-4e5b-8239-78001d1e5f95,2024-02-10 00:00:00,Uncategorized,21.09,Gadgets
+788d3750-ba61-415d-abad-85e4f3123b2f,2024-02-11 00:00:00,Uncategorized,43.68,Lunch out
+11f02d25-0962-49ed-9e5a-c4d26e0c12fd,2024-03-18 00:00:00,Uncategorized,145.53,Health insurance
+79d76ef5-af6b-486c-87f7-43a3439e3bf4,2024-04-13 00:00:00,Uncategorized,40.75,Dinner with friends
+7b8a3385-22ae-42c1-b3b5-6db80c21c110,2024-04-20 00:00:00,Uncategorized,24.86,Fruits and vegetables
+36243c7e-abd8-4a99-bf61-854090397811,2024-01-21 00:00:00,Uncategorized,44.29,Streaming service
+1b237d82-43f8-4de0-a449-f20160d382c1,2024-01-07 00:00:00,Uncategorized,66.59,Monthly stock-up
+c021a544-09c6-4513-8107-3a4b6f77463e,2024-03-19 00:00:00,Uncategorized,128.85,Concert
+361c7dd7-ace8-4f18-a7da-a36e18146a9b,2024-04-09 00:00:00,Uncategorized,147.42,Dinner with friends
+bf5cbd63-36b3-47a4-b2a4-df56123d1631,2024-04-01 00:00:00,Uncategorized,19.9,Gas bill
+0fab2832-15cc-4939-bd43-d08fb3e58eee,2024-01-23 00:00:00,Uncategorized,35.62,Online course
+0b8a5862-4eb8-4f22-8858-8442f433802e,2024-01-30 00:00:00,Uncategorized,120.08,Electricity bill
+1c46053c-2098-4988-a348-9bf7e0c4a134,2024-04-08 00:00:00,Uncategorized,41.28,Theater play
+1180bc5a-865c-41fe-b340-6eb9c473aaa6,2024-04-08 00:00:00,Uncategorized,80.18,Gym membership
+6896cf19-c930-4d75-8bdc-18f7d2c5d1a9,2024-04-07 00:00:00,Uncategorized,41.24,Fruits and vegetables
+26956834-054b-4863-9e26-f18833b7777e,2024-03-22 00:00:00,Uncategorized,120.23,Fruits and vegetables
+d782c46e-c699-4cbb-a35d-739eae65a75d,2024-02-13 00:00:00,Uncategorized,135.27,Theater play
+a9c0ca28-c939-475c-8c4d-1d58c0ad1d72,2024-03-31 00:00:00,Uncategorized,59.31,New clothes
+5bc5f8f3-b295-489e-a270-d061b708986e,2024-04-30 00:00:00,Uncategorized,133.34,Theater play
+515a1bb7-443c-484a-8591-4c15ce88e7d1,2024-02-14 00:00:00,Uncategorized,30.43,Electricity bill
+cce22e3d-c4c5-4a38-8aa5-e0c6034026e1,2024-03-20 00:00:00,Uncategorized,107.79,Lunch out
+e00e9f54-54c6-40c2-840e-73640490c3e8,2024-03-04 00:00:00,Uncategorized,131.87,Water bill
+69796629-07ee-4f73-bbc9-96800e01d9f3,2024-01-22 00:00:00,Uncategorized,122.4,Tuition fee
+072c9266-7493-4d21-b59c-d83a2654609b,2024-02-09 00:00:00,Uncategorized,56.21,Tuition fee
+e67d49b7-5e79-4707-8f88-401d5d57a380,2024-04-14 00:00:00,Uncategorized,146.38,Taxi ride
+1b8d2f72-9015-4ea3-8755-c4c4cfc559b5,2024-04-21 00:00:00,Uncategorized,97.76,Gas bill
+a3ea1adf-f0b1-4060-9514-09e237c21bdb,2024-04-09 00:00:00,Uncategorized,118.7,Online course
+6d98fe59-089b-4cf6-bf55-a32819c37b97,2024-03-28 00:00:00,Uncategorized,67.82,Weekly groceries
+39fa892c-e94c-4bbc-bd00-311ef6f9dd13,2024-02-26 00:00:00,Uncategorized,81.9,Gadgets
+740c9284-1a06-4837-9ee9-5635e5beab21,2024-02-15 00:00:00,Uncategorized,82.27,Doctor visit
+3e71ceef-4bf5-4778-bdcc-d33331d137d8,2024-04-26 00:00:00,Uncategorized,131.31,Water bill
+ca5ea014-8957-4311-b23e-67cc49d19c10,2024-03-01 00:00:00,Uncategorized,46.6,Streaming service
+719a5608-cecb-4250-80b6-208551d674ee,2024-04-17 00:00:00,Uncategorized,112.42,Pharmacy
+cac4e509-b198-4351-bd56-e2c126c037d0,2024-02-04 00:00:00,Uncategorized,97.24,Dinner with friends
+7a4cf19f-5027-4909-8916-4d42689d7f7c,2024-02-28 00:00:00,Uncategorized,72.85,Health insurance
+9cabf9e8-4691-428f-82ba-ca82ec3a2ef2,2024-01-17 00:00:00,Uncategorized,90.5,Fast food
+85a9d6d6-c8d7-466b-ade5-8c3e8deb8b0a,2024-03-11 00:00:00,Uncategorized,18.62,Fruits and vegetables
+15c99aec-a956-4f88-a8a7-5090777f9e10,2024-02-11 00:00:00,Uncategorized,66.39,Books
+d218a51b-24f5-4657-ae29-19a8a76f3639,2024-03-27 00:00:00,Uncategorized,112.73,Weekly groceries
+b3fbb420-ff60-42cf-8cdd-34c2db8c8759,2024-02-26 00:00:00,Uncategorized,86.59,Water bill
+70fa4439-cba7-4f7a-a3c8-be99703c6c55,2024-03-22 00:00:00,Uncategorized,97.12,Stationery
+12482144-749f-46cd-a529-b65563e80f92,2024-01-20 00:00:00,Uncategorized,132.42,Fuel refill
+c3f5e679-c250-4434-baee-7874d65d1391,2024-03-21 00:00:00,Uncategorized,35.95,Fruits and vegetables
+a8106bdc-78fa-4d86-8a41-43fbe5d06274,2024-01-30 00:00:00,Uncategorized,142.84,Fuel refill
+f6379c87-e67b-4d2f-b188-abdcb74d2b09,2024-01-11 00:00:00,Uncategorized,36.27,Electricity bill
+ca8cdecc-4a5a-4512-b9a8-8ccae9574445,2024-04-10 00:00:00,Uncategorized,42.73,Health insurance
+9a7fad7b-405f-4993-8be3-97d4d874dcb0,2024-04-24 00:00:00,Uncategorized,71.59,Books
+0b868a5c-e60d-4dea-a003-6ed0ab07d698,2024-04-21 00:00:00,Uncategorized,64.02,Metro pass
+0e99713f-e603-4152-90b8-35ff79dd6d71,2024-01-20 00:00:00,Uncategorized,61.5,Theater play
+23997fb1-1ac0-49cc-bb0e-3f07105ae64b,2024-01-07 00:00:00,Uncategorized,146.51,Streaming service
+08dea2b7-7c6b-499e-9087-932baaaed336,2024-01-19 00:00:00,Uncategorized,84.36,Electricity bill
+3721d520-c7b1-4320-87f0-e508987cc9b1,2024-01-25 00:00:00,Uncategorized,134.92,Taxi ride
+73c4afbc-50da-4cab-aeb7-4db88eb52741,2024-01-19 00:00:00,Uncategorized,100.43,Fruits and vegetables
+ae48a7c4-65ca-4369-801a-fb762bf06738,2024-01-20 00:00:00,Uncategorized,114.74,Movie ticket
+62c19091-629f-4e65-b0a2-b206166e63a4,2024-03-14 00:00:00,Uncategorized,59.33,Electricity bill
+8112b632-8087-4df2-a702-573500e5477c,2024-02-19 00:00:00,Uncategorized,74.37,Concert
+29cd39b6-f6f2-4820-b8c8-223615b7899a,2024-03-30 00:00:00,Uncategorized,29.38,Home decor
+ad20d63a-2542-471b-b451-10e319884cd9,2024-03-30 00:00:00,Uncategorized,132.13,Fuel refill
+36bdee92-6a2b-45b1-97d9-1d168344f93d,2024-02-05 00:00:00,Uncategorized,71.35,Concert
+c0901ca7-d079-44f0-a1f0-bab40e69eafd,2024-04-06 00:00:00,Uncategorized,46.32,Electricity bill
+e45d4dc3-6132-4c5b-bb99-2ffc4205d48e,2024-03-21 00:00:00,Uncategorized,23.72,Water bill
+7b580ed2-3b79-4476-a51f-025dfd67e37a,2024-02-11 00:00:00,Uncategorized,100.16,Tuition fee
+3741aa1a-1930-4deb-a718-42f227a0ecf2,2024-01-28 00:00:00,Uncategorized,49.39,Supermarket run
+2e724319-9555-49d4-8a4d-3f360ee89a05,2024-04-22 00:00:00,Uncategorized,103.05,Movie ticket
+22410707-1cda-423c-9606-2a6dd923f88a,2024-02-11 00:00:00,Uncategorized,28.23,Home decor
+5a47d395-a1a8-4908-b4c0-a524d08c128a,2024-01-01 00:00:00,Uncategorized,137.24,New clothes
+c1e8312c-5a08-4756-8f0b-ef37273c5ec9,2024-02-13 00:00:00,Uncategorized,140.27,Fuel refill
+90930833-eb6b-4a07-891b-4163c21de2d5,2024-03-17 00:00:00,Uncategorized,15.77,Gadgets
+7d5d6f92-f68a-4836-93f9-48104620a9c6,2024-01-16 00:00:00,Uncategorized,140.1,Lunch out
+ef10a7ce-28e8-41b2-9bc9-c23713e09492,2024-03-05 00:00:00,Uncategorized,80.51,Metro pass
+3a7a5e55-16fb-4b19-97d1-8ef116781dae,2024-04-16 00:00:00,Uncategorized,72.87,Online course
+25bd1142-e29b-4be2-bb67-4ad8f82ec798,2024-04-18 00:00:00,Uncategorized,139.63,Gym membership
+8c392045-1967-44a9-853b-3e4f161f6d71,2024-02-14 00:00:00,Uncategorized,138.3,Home decor
+0c570192-d5bf-4481-b58e-80c494174d60,2024-03-03 00:00:00,Uncategorized,14.93,Doctor visit
+63b595a2-3ab8-4782-9e78-2aa8183a7e4e,2024-02-25 00:00:00,Uncategorized,35.55,Concert
+6c8b77d2-3f95-4cf4-bf18-e56f60305ef4,2024-02-28 00:00:00,Uncategorized,99.78,Lunch out
+d5f8c33d-ab15-4811-81b3-8a9bfd3afbaa,2024-04-08 00:00:00,Uncategorized,131.69,Books
+b635b1df-acf4-4ffb-9d5b-5295333f4acc,2024-03-31 00:00:00,Uncategorized,135.46,Home decor
+70bdf868-3ffb-4266-8023-d569018f4ebc,2024-03-02 00:00:00,Uncategorized,53.69,Dinner with friends
+d4f66486-ec6a-4da7-b558-57d455bb15e1,2024-03-27 00:00:00,Uncategorized,36.94,Gadgets
+ebbd285c-c0a2-4089-9a0e-6371b6b73b70,2024-03-16 00:00:00,Uncategorized,35.06,Lunch out
+ca91d193-7e1f-4573-9f80-fb6a42caa0ef,2024-03-05 00:00:00,Uncategorized,24.37,Water bill
+dc089aeb-2218-4cc8-a1ea-80cf4f5493ee,2024-02-10 00:00:00,Uncategorized,148.47,Bus fare
+c473266f-9282-4307-aabf-1539db5b31b7,2024-01-10 00:00:00,Uncategorized,133.86,Tuition fee
+e9545f01-ff01-4998-973e-6dc1410753b8,2024-04-12 00:00:00,Uncategorized,41.19,Fast food
+e5618d25-4208-4a9b-835a-46f1e35244e3,2024-03-02 00:00:00,Uncategorized,12.16,Fuel refill
+56d492c2-1ba8-44d4-a183-c4d7d552b6d7,2023-10-15 00:00:00,Uncategorized,50.0,Weekly groceries
+18ba1a40-64c3-4237-a3e5-e60df5e8ffe4,2023-10-20 00:00:00,Uncategorized,25.0,Bus fare
+b939b250-a455-4f95-9027-9e87989b4a46,2023-11-10 00:00:00,Uncategorized,60.0,Monthly stock-up
+cd94f687-6015-4289-89a7-797520c21b90,2023-11-18 00:00:00,Uncategorized,30.0,Movie ticket
+242adb8f-c035-4910-a93d-84836025781d,2023-12-05 00:00:00,Uncategorized,55.0,Fruits and vegetables
+09b304bb-35e1-47f1-b439-a2a4d53eb012,2023-12-15 00:00:00,Uncategorized,120.0,Electricity bill
+44fa9665-0d60-46ad-b2b9-2b8ceca20efd,2024-01-27 00:00:00,Uncategorized,109.48,Gadgets
+bc0d2cfc-c723-4ab0-a084-ad8accbe7ea1,2024-02-25 00:00:00,Uncategorized,49.82,Taxi ride
+87472642-2dbe-4a2b-8b0f-a05a0152fc9a,2024-04-09 00:00:00,Uncategorized,81.37,Movie ticket
+cc69ced7-55b4-46b6-9012-4092f62430b3,2024-02-25 00:00:00,Uncategorized,52.59,Theater play
+083a7b92-6e33-4e60-9944-201a2de51f3a,2024-01-25 00:00:00,Uncategorized,32.19,Lunch out
+4e3e050b-2c10-46a3-969d-9a8da0bc9a5b,2024-04-01 00:00:00,Uncategorized,57.31,Fruits and vegetables
+0877bf75-8f28-4cbd-8f96-ab167f2ef0c8,2024-01-23 00:00:00,Uncategorized,42.37,Theater play
+ee925344-9e88-407b-87be-94841a4eb993,2024-01-22 00:00:00,Uncategorized,23.74,Metro pass
+7324bb3c-b66b-4a8d-a0fb-836e8aed2864,2024-01-09 00:00:00,Uncategorized,34.73,Taxi ride
+346db4b5-e14d-4875-b4fb-31c23174a93e,2024-02-08 00:00:00,Uncategorized,119.86,Lunch out
+02080a8d-ebf8-4409-8ecf-eb2a04380a21,2024-01-21 00:00:00,Uncategorized,44.57,Books
+8e4af888-5ef4-4d9d-a44c-0c49d82c6bd2,2024-04-26 00:00:00,Uncategorized,85.91,Health insurance
+6555883b-b786-4f47-9ebd-8e0373b427cf,2024-03-30 00:00:00,Uncategorized,45.75,Concert
+22531dd7-90d4-4a61-b459-33b74554e848,2024-04-23 00:00:00,Uncategorized,60.9,Bus fare
+e6db2bad-123a-4cba-b0a1-4c34614568ab,2024-02-10 00:00:00,Uncategorized,21.09,Gadgets
+48e7dba7-7717-4bd6-803a-50ed6bfe5c22,2024-02-11 00:00:00,Uncategorized,43.68,Lunch out
+60dff21e-0c15-4151-8325-4bea15c114ad,2024-03-18 00:00:00,Uncategorized,145.53,Health insurance
+37fe2975-a8a3-40fc-a3bd-6b632d30c9ac,2024-04-13 00:00:00,Uncategorized,40.75,Dinner with friends
+d070a154-53e2-4845-ae71-04d67b393b4a,2024-04-20 00:00:00,Uncategorized,24.86,Fruits and vegetables
+23a7fc60-08da-40d0-9629-353fdcb79e2e,2024-01-21 00:00:00,Uncategorized,44.29,Streaming service
+4a73bd8f-6360-4f1e-9ef1-68f6d6d038e6,2024-01-07 00:00:00,Uncategorized,66.59,Monthly stock-up
+206a0b55-48cc-44bf-aaee-5b8f357a8b6d,2024-03-19 00:00:00,Uncategorized,128.85,Concert
+f09be759-ccb9-44e2-930b-3635cdd36360,2024-04-09 00:00:00,Uncategorized,147.42,Dinner with friends
+2824ce7b-a127-44d0-b841-4f86f9153e7e,2024-04-01 00:00:00,Uncategorized,19.9,Gas bill
+f63d1d6c-7808-4447-8d10-88e162da805d,2024-01-23 00:00:00,Uncategorized,35.62,Online course
+a4cca1d2-dcb4-4c2f-baaa-3c9494c56736,2024-01-30 00:00:00,Uncategorized,120.08,Electricity bill
+69d2d4a7-82e6-43c1-9f66-073993fbba6d,2024-04-08 00:00:00,Uncategorized,41.28,Theater play
+d8515ad7-f120-447c-b42f-dedb0cbcb454,2024-04-08 00:00:00,Uncategorized,80.18,Gym membership
+2563f086-f426-4939-a353-65c53453ce26,2024-04-07 00:00:00,Uncategorized,41.24,Fruits and vegetables
+7873400a-fbda-46a1-b97a-5effd0215481,2024-03-22 00:00:00,Uncategorized,120.23,Fruits and vegetables
+aa7d6b65-170f-4195-91d2-ca7537ff4b75,2024-02-13 00:00:00,Uncategorized,135.27,Theater play
+57052cdb-1c42-4c69-b3a3-d4060bc988c4,2024-03-31 00:00:00,Uncategorized,59.31,New clothes
+23fa2b7a-7d59-469e-895b-defb7b8aa224,2024-04-30 00:00:00,Uncategorized,133.34,Theater play
+3cc11ac9-178a-4f67-ade1-015c43cdf468,2024-02-14 00:00:00,Uncategorized,30.43,Electricity bill
+7867f0d0-0a88-40a6-89d8-b4771de1f4cb,2024-03-20 00:00:00,Uncategorized,107.79,Lunch out
+d4e45111-1e58-4fc2-a721-e05367b865ad,2024-03-04 00:00:00,Uncategorized,131.87,Water bill
+27944300-8be1-485c-b22c-e71d08729fd1,2024-01-22 00:00:00,Uncategorized,122.4,Tuition fee
+8d693d0a-548a-4e37-9b4e-9da154ff8b66,2024-02-09 00:00:00,Uncategorized,56.21,Tuition fee
+0902a9f3-75d1-4a0e-91be-735bee3ac172,2024-04-14 00:00:00,Uncategorized,146.38,Taxi ride
+817bb8c6-a2e0-491d-9539-36e9d660e69d,2024-04-21 00:00:00,Uncategorized,97.76,Gas bill
+9bacbca0-8050-473e-97b4-c2cf6d322f4f,2024-04-09 00:00:00,Uncategorized,118.7,Online course
+ebf50172-6d52-4678-90b4-d95565a756ca,2024-03-28 00:00:00,Uncategorized,67.82,Weekly groceries
+1e169a9a-a29d-4952-ac6e-75fbea9d5bcf,2024-02-26 00:00:00,Uncategorized,81.9,Gadgets
+3af39251-4391-49c5-98fa-f84b6a984dc9,2024-02-15 00:00:00,Uncategorized,82.27,Doctor visit
+a28fe76a-7780-441b-98fd-4ebf4db3a625,2024-04-26 00:00:00,Uncategorized,131.31,Water bill
+5ec2b375-b218-4198-bcf4-9a29fa2dc4e4,2024-03-01 00:00:00,Uncategorized,46.6,Streaming service
+a6ceeb98-1bb8-45bf-b3ec-2c1a353c1505,2024-04-17 00:00:00,Uncategorized,112.42,Pharmacy
+35d386a5-da09-4279-babc-92782c7a3d92,2024-02-04 00:00:00,Uncategorized,97.24,Dinner with friends
+6ff42e4f-cf5e-45b2-b661-2fde462ac41d,2024-02-28 00:00:00,Uncategorized,72.85,Health insurance
+7b84fa42-5f68-4eaa-9877-80891fa53c0d,2024-01-17 00:00:00,Uncategorized,90.5,Fast food
+f40009e8-9604-4beb-b182-fcf4f7e16da8,2024-03-11 00:00:00,Uncategorized,18.62,Fruits and vegetables
+e144e703-a5f0-4dc3-98ea-806d85cdf2e6,2024-02-11 00:00:00,Uncategorized,66.39,Books
+7b86bbd8-8f1f-402f-9471-78e6a7657684,2024-03-27 00:00:00,Uncategorized,112.73,Weekly groceries
+79c8ea63-8fa6-4f50-a6e7-8f32ef64fbd5,2024-02-26 00:00:00,Uncategorized,86.59,Water bill
+585249da-e727-4f55-8dd6-68ba16fc291c,2024-03-22 00:00:00,Uncategorized,97.12,Stationery
+ee9790ec-21b4-4453-8973-9e9576907cff,2024-01-20 00:00:00,Uncategorized,132.42,Fuel refill
+0c5a0f94-64ff-4d5d-8dfa-190148b94120,2024-03-21 00:00:00,Uncategorized,35.95,Fruits and vegetables
+3cfa3e68-a1ad-4d0c-b596-6f55588a543f,2024-01-30 00:00:00,Uncategorized,142.84,Fuel refill
+cf1696ce-8dc1-443c-8893-14727c290ccd,2024-01-11 00:00:00,Uncategorized,36.27,Electricity bill
+9eb7cee9-23be-416d-8afa-57145568dc70,2024-04-10 00:00:00,Uncategorized,42.73,Health insurance
+2d4c41d4-454b-4972-b365-2f7346db92f0,2024-04-24 00:00:00,Uncategorized,71.59,Books
+d9e14161-d07c-468a-86dc-f04749584f03,2024-04-21 00:00:00,Uncategorized,64.02,Metro pass
+659121ca-ee7b-4693-8418-d0a2c73dbdd4,2024-01-20 00:00:00,Uncategorized,61.5,Theater play
+8e35cdd3-de16-4b4e-bd30-9bb73f08f46a,2024-01-07 00:00:00,Uncategorized,146.51,Streaming service
+aa6d3483-ea9a-44f8-a88b-fe10b3571719,2024-01-19 00:00:00,Uncategorized,84.36,Electricity bill
+0641c1a8-ada8-4c13-b8a2-c0ae002be117,2024-01-25 00:00:00,Uncategorized,134.92,Taxi ride
+c796da1e-31e2-47c9-bd6c-d381001bdada,2024-01-19 00:00:00,Uncategorized,100.43,Fruits and vegetables
+5e5671e3-4050-40a2-9053-1e49ed3bc836,2024-01-20 00:00:00,Uncategorized,114.74,Movie ticket
+ae115c4e-7f93-4979-bfac-6e7f7282d9d4,2024-03-14 00:00:00,Uncategorized,59.33,Electricity bill
+fc0ed28a-5813-46dd-833c-eaa404e842ab,2024-02-19 00:00:00,Uncategorized,74.37,Concert
+cd34bf98-474d-4d2d-9f69-b4bef7be3bf8,2024-03-30 00:00:00,Uncategorized,29.38,Home decor
+3a73e15a-133f-4b93-8a9f-24e8c05c33fa,2024-03-30 00:00:00,Uncategorized,132.13,Fuel refill
+014986f2-8c0d-4b99-bbea-eccb534e1710,2024-02-05 00:00:00,Uncategorized,71.35,Concert
+7a2e877c-3e52-401d-a74a-374a16ef20ec,2024-04-06 00:00:00,Uncategorized,46.32,Electricity bill
+23ff918d-1060-4034-84f1-9fa650f51d05,2024-03-21 00:00:00,Uncategorized,23.72,Water bill
+130bcfbf-ed5b-460b-81a7-17acd204e0ce,2024-02-11 00:00:00,Uncategorized,100.16,Tuition fee
+d911982c-25fb-457d-b2f6-8efe302217ac,2024-01-28 00:00:00,Uncategorized,49.39,Supermarket run
+d6197756-9534-4163-b14f-f3c6140e2e38,2024-04-22 00:00:00,Uncategorized,103.05,Movie ticket
+1b9e5917-0a7f-43bd-bd79-d0c737c56010,2024-02-11 00:00:00,Uncategorized,28.23,Home decor
+39ab5eb2-7c6a-488f-b5d2-e883a1a2e55f,2024-01-01 00:00:00,Uncategorized,137.24,New clothes
+dfa638a0-dc3b-4a37-b54d-386d19353897,2024-02-13 00:00:00,Uncategorized,140.27,Fuel refill
+08f5cfa5-e1a0-4d1e-ba79-be190ea7a4f0,2024-03-17 00:00:00,Uncategorized,15.77,Gadgets
+fee257e2-cb34-46d1-a6d7-58e7d7915a37,2024-01-16 00:00:00,Uncategorized,140.1,Lunch out
+b90e7086-9d30-4f28-bf7c-4c44be71689b,2024-03-05 00:00:00,Uncategorized,80.51,Metro pass
+559e2e3b-4d28-47d0-bc6c-bff1f1197fb1,2024-04-16 00:00:00,Uncategorized,72.87,Online course
+c562dc71-3d46-45d1-a8a9-dcf475af8a6b,2024-04-18 00:00:00,Uncategorized,139.63,Gym membership
+aa5a641f-9db3-4120-90e0-cc9aaad695cd,2024-02-14 00:00:00,Uncategorized,138.3,Home decor
+7e9fc4ac-c6e6-4a56-8112-45ee681d72de,2024-03-03 00:00:00,Uncategorized,14.93,Doctor visit
+ccb1ff29-94d0-4452-ab97-28de0973b37f,2024-02-25 00:00:00,Uncategorized,35.55,Concert
+583321d6-ed1f-476d-8bf1-6ffc8111299c,2024-02-28 00:00:00,Uncategorized,99.78,Lunch out
+715031e3-a844-4ef3-8c3d-46b5f8eadeae,2024-04-08 00:00:00,Uncategorized,131.69,Books
+dda67cce-2703-4762-9d06-563223957d23,2024-03-31 00:00:00,Uncategorized,135.46,Home decor
+d37122ea-2d0e-41e5-9329-9269d7c309cd,2024-03-02 00:00:00,Uncategorized,53.69,Dinner with friends
+2e3086cd-47ff-4eb0-aef3-115eab12e8f0,2024-03-27 00:00:00,Uncategorized,36.94,Gadgets
+f56ab483-3d34-4d45-bfbf-e87ed9953bb0,2024-03-16 00:00:00,Uncategorized,35.06,Lunch out
+b544299e-e497-4db2-b65b-5ad8c848b633,2024-03-05 00:00:00,Uncategorized,24.37,Water bill
+c9b7a8dc-9570-4939-b413-17c06952982c,2024-02-10 00:00:00,Uncategorized,148.47,Bus fare
+d4ed1564-27ae-45ef-8aba-b5b23002dc73,2024-01-10 00:00:00,Uncategorized,133.86,Tuition fee
+8f224fdb-0d79-47ba-901f-d3f015eca6d8,2024-04-12 00:00:00,Uncategorized,41.19,Fast food
+8692fac6-8d8a-4858-bfed-7483af0d931d,2024-03-02 00:00:00,Uncategorized,12.16,Fuel refill
+a55feb0e-63c2-422d-bb7f-4511aab5741e,2023-10-15 00:00:00,Uncategorized,50.0,Weekly groceries
+9727b561-95a8-4bea-909e-a661057449fb,2023-10-20 00:00:00,Uncategorized,25.0,Bus fare
+c009f9e9-53fc-4d79-ac09-cd10e20d6229,2023-11-10 00:00:00,Uncategorized,60.0,Monthly stock-up
+fcb392a1-005c-4dd0-8738-13eb97ceff41,2023-11-18 00:00:00,Uncategorized,30.0,Movie ticket
+b03eac89-e415-424a-8fc3-84e67978b1b7,2023-12-05 00:00:00,Uncategorized,55.0,Fruits and vegetables
+d3314667-7d1e-4bfa-9f3a-92e5f397f3f7,2023-12-15 00:00:00,Uncategorized,120.0,Electricity bill
+0d57c8d2-41d2-41db-8546-2eee4e9d6dee,2023-10-15 00:00:00,Uncategorized,50.0,Weekly groceries
+c9d31bc2-3139-4fe2-87c8-ec0939abdf4d,2023-10-20 00:00:00,Uncategorized,25.0,Bus fare
+37e5c91c-6e74-415e-9d8e-38ce15715c2d,2023-11-10 00:00:00,Uncategorized,60.0,Monthly stock-up
+ffbec73c-faa5-4675-af52-2acb8939325d,2023-11-18 00:00:00,Uncategorized,30.0,Movie ticket
+cc89ab97-b2ef-4d20-85fe-cebf29759173,2023-12-05 00:00:00,Uncategorized,55.0,Fruits and vegetables
+ef0fda28-ec5c-4d8a-9830-7046d25c24b1,2023-12-15 00:00:00,Uncategorized,120.0,Electricity bill
+7279f3a0-0788-4676-9b6e-c0ea53eeae26,2025-07-09,Groceries,50.0,

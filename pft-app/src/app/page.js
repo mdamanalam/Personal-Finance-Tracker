@@ -3,6 +3,7 @@
  import { useSession, signOut } from "next-auth/react";
  import { useRouter } from "next/navigation";
  import Image from "next/image";
+ import Link from "next/link";
  import { useEffect, useState, useRef } from "react";
  import { Chart, registerables } from 'chart.js/auto'; // Using 'chart.js/auto' for easier setup
  Chart.register(...registerables);
@@ -35,12 +36,29 @@
    const [currentPage, setCurrentPage] = useState(1);
    const [expensesPerPage] = useState(5); // Display 5 expenses per page
 
+    // State for features
+   const [showProfileDropdown, setShowProfileDropdown] = useState(false);
+   const [showNotifications, setShowNotifications] = useState(false);
+   const [notifications, setNotifications] = useState([
+    "You are close to your monthly budget!",
+    "New feature: Export your data as CSV.",
+   ]);
+   const [darkMode, setDarkMode] = useState(false);
+   const [showQuickAdd, setShowQuickAdd] = useState(false);
+   const [showFeedback, setShowFeedback] = useState(false);
+   const [monthlyBudget, setMonthlyBudget] = useState(2000); // Example
+
+
    useEffect(() => {
      if (status === "loading") return; // Wait for session to load
      if (!session) {
        router.push("/auth/login"); // Redirect if not authenticated
      }
    }, [session, status, router]);
+
+   useEffect(() => {
+    document.body.className = darkMode ? "dark" : "";
+   }, [darkMode]);
 
     // --- CSV Upload Functions ---
    const handleFileChange = (event) => {
@@ -49,6 +67,8 @@
         setUploadMessage({ type: '', text: '' }); // Clear previous messages
     }
    };
+   
+
    
    
 
@@ -271,25 +291,62 @@
 
    return (
      <div className="min-h-screen flex flex-col bg-gray-100">
-       <nav className="bg-blue-400 shadow-md border-b border-gray-blue-500 border-b border-gray-600 text-white p-4 flex justify-between items-center shadow-md">
-         {/* <h1 className="text-xl font-bold">Quantivy</h1> */}
-          <div className="flex items-center">
-           <Image
-             src="/images/mylogo.jpg" // Path relative to the 'public' directory
-             alt="WealthPilot Logo"
-             width={50} // Specify desired width (e.g., 40 pixels)
-             height={50} // Specify desired height (e.g., 40 pixels)
-             className="mr-3" // Optional: add some margin to the right
-           />
-           {/* <h1 className="text-xl font-bold">Quantivy</h1> */}
-         </div>
-         <button
-           onClick={() => signOut()}
-           className="bg-red-500 px-4 py-2 rounded hover:bg-red-700 transition duration-150"
-         >
-           Logout
-         </button>
-       </nav>
+      <nav className="bg-blue-400 shadow-md border-b border-gray-blue-500 border-b border-gray-600 text-white p-4 flex justify-between items-center shadow-md">
+        <div className="flex items-center">
+          <Link href="/contact" className="mr-6 font-semibold hover:underline">Contact</Link>
+          <Image
+            src="/images/mylogo.jpg"
+            alt="WealthPilot Logo"
+            width={50}
+            height={50}
+            className="mr-3"
+          />
+          <Link href="/faq" className="ml-4 underline">FAQ/Help</Link>
+        </div>
+        <div className="flex items-center">
+          {/* Notifications */}
+          <div className="relative mr-4">
+            <button onClick={() => setShowNotifications(!showNotifications)} className="relative">
+              <span role="img" aria-label="bell">🔔</span>
+              {notifications.length > 0 && <span className="absolute top-0 right-0 w-2 h-2 bg-red-500 rounded-full"></span>}
+            </button>
+            {showNotifications && (
+              <div className="absolute right-0 mt-2 w-64 bg-white rounded shadow-lg z-50">
+                {notifications.length === 0 ? (
+                  <div className="p-4 text-gray-500">No notifications</div>
+                ) : (
+                  notifications.map((n, i) => (
+                    <div key={i} className="p-4 border-b last:border-b-0">{n}</div>
+                  ))
+                )}
+              </div>
+            )}
+          </div>
+          {/* Dark Mode Toggle */}
+          <button
+            onClick={() => setDarkMode(!darkMode)}
+            className="ml-4 px-2 py-1 rounded bg-gray-200 text-gray-800 hover:bg-gray-300"
+          >
+            {darkMode ? "🌙" : "☀️"}
+          </button>
+          {/* Profile Dropdown */}
+          <div className="relative ml-4">
+            <button
+              onClick={() => setShowProfileDropdown(!showProfileDropdown)}
+              className="flex items-center bg-blue-500 px-4 py-2 rounded hover:bg-blue-600 transition duration-150"
+            >
+              <span className="mr-2">{session?.user?.name || "Profile"}</span>
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
+            </button>
+            {showProfileDropdown && (
+              <div className="absolute right-0 mt-2 w-48 bg-white rounded shadow-lg z-50">
+                <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Edit Profile</a>
+                <button onClick={() => signOut()} className="block w-full text-left px-4 py-2 text-red-600 hover:bg-gray-100">Logout</button>
+              </div>
+            )}
+          </div>
+        </div>
+      </nav>
 
        {/* <main className="flex-grow p-4 md:p-8"> */}
        <main className="flex-grow px-4 pb-4 md:px-8 md:pb-8">
@@ -346,6 +403,27 @@
                 </button>
                 {uploadMessage.text && <p className={`mt-2 text-sm ${uploadMessage.type === 'success' ? 'text-green-600' : uploadMessage.type === 'error' ? 'text-red-600' : 'text-blue-600'}`}>{uploadMessage.text}</p>}
               </div>
+              <hr className="my-6 border-gray-300" />
+              {/* Export Data Button */}
+              <button
+              onClick={() => {
+                const csvRows = [
+                  ["Date", "Category", "Amount", "Description"],
+                  ...expenses.map(exp => [exp.date, exp.category, exp.amount, exp.description])
+                ];
+                const csvContent = "data:text/csv;charset=utf-8," + csvRows.map(e => e.join(",")).join("\n");
+                const encodedUri = encodeURI(csvContent);
+                const link = document.createElement("a");
+                link.setAttribute("href", encodedUri);
+                link.setAttribute("download", "expenses.csv");
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+              }}
+              className="mb-4 bg-indigo-500 text-white px-4 py-2 rounded hover:bg-indigo-600"
+            >
+              Export as CSV
+            </button>
             </div>
 
              {/* Insights Summary */}
@@ -377,6 +455,17 @@
                  <p className="text-gray-600">Predicted Total for Next Month: <span className="font-bold text-purple-600">${(prediction.prediction || 0).toFixed(2)}</span></p>
                  <p className="text-sm text-gray-500 mt-1">{prediction.message}</p>
                </div>
+                      {/* Budget Progress Bar */}
+          <div className="mb-6 max-w-xl mx-auto">
+            <h3 className="text-xl font-medium text-gray-600 mb-2">Budget Progress</h3>
+            <div className="w-full bg-gray-200 rounded-full h-4">
+              <div
+                className="bg-green-500 h-4 rounded-full"
+                style={{ width: `${Math.min((insightsSummary.total_spending / monthlyBudget) * 100, 100)}%` }}
+              ></div>
+            </div>
+            <p className="text-sm mt-1">{`$${insightsSummary.total_spending} / $${monthlyBudget}`}</p>
+          </div>
              </div>
            </div>
 
