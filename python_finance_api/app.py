@@ -40,6 +40,11 @@ def load_expenses():
         df['date'] = pd.to_datetime(df['date'], errors='coerce')
         df['amount'] = pd.to_numeric(df['amount'], errors='coerce')
         df.dropna(subset=['date', 'amount'], inplace=True) # Drop rows where conversion failed
+        df['amount'] = df['amount'].replace([np.nan, np.inf, -np.inf], 0)
+        df['amount'] = df['amount'].fillna(0)
+        # Also sanitize description and category columns if needed
+        df['description'] = df['description'].replace([np.nan], "")
+        df['category'] = df['category'].replace([np.nan], "Uncategorized")
         return df
     except pd.errors.EmptyDataError:
         df = pd.DataFrame(columns=['id', 'date', 'category', 'amount', 'description'])
